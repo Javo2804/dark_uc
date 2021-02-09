@@ -1,0 +1,13 @@
+{
+ "manifest_version": 2,
+ "name": "Modo Oscuro - Portal UC",
+ "version": "0.1.0",
+ "description": "[EN DESARROLLO] Extensión que permite activar Modo Oscuro en el Portal UC.",
+ "short_name": "Dark PUC",
+ "content_scripts": [
+   {
+     "matches": ["https://*.portal.uc.cl/*"],
+     "css": ["background.css"]
+    }
+ ]
+}
