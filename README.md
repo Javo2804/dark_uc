@@ -10,4 +10,4 @@ Extensión aún en desarrollo.
 - Revisar compatibilidad con Firefox.
 - Crear un menú de configuración (Activar/Desactivar).
 - Crear un modo claro con la misma estructura mejorada del modo oscuro.
-- Ampliar modo oscuro a otras páginas de la UC, como Canvas, Labmat, Siding, Buscacursos, etc.
+- Ampliar modo oscuro a otras páginas de la UC, como Canvas, LABMAT, SIDING, Buscacursos, etc.
