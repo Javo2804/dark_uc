@@ -1,0 +1,49 @@
+#wrapper {
+    min-height: 100vh !important;
+}
+
+#layout-grid {
+    max-width: 1500px !important;
+    margin: auto !important;
+}
+
+body, div, a, span, legend {
+    font-family: "Inter", sans-serif !important;
+}
+
+table, td, th, tr {
+    font-family: "Inter", sans-serif !important;
+}
+
+button, form, select, input {
+    font-family: "Inter", sans-serif !important;
+}
+
+select {
+    /*border: 1px solid;*/
+    border-radius: 5px !important;
+    padding: 5px !important;
+}
+
+.portlet-content-bottom, .portlet-content-right, .portlet-content-left, .portlet-title, .portlet-topper, .portlet-topper-right, .portlet-left-bottom, .portlet-minimized, .portlet-content {
+    background: unset !important;
+}
+
+.portlet-topper {
+    background: var(--azul_trad) !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.portlet-title {
+    padding-left: 10px !important;
+    font-size: 15px !important;
+    text-transform: uppercase !important;
+    padding-bottom: 2px !important;
+}
+
+.portlet {
+    border-radius: 10px !important;
+    /* overflow: hidden;*/
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5) !important;
+}
