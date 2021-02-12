@@ -1,0 +1,72 @@
+/* SSO Login & Logout */
+
+/* Forma Tarjetas */
+body.login div.card, body.login #serviceui {
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+body footer.footer div.container span {
+    color: var(--texto2) !important;
+}
+
+.card-header {
+    background-color: var(--azul_osc) !important;
+    border-bottom: unset !important;
+    color: var(--texto) !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+}
+
+#ayudaModal .card-header {
+    text-transform: unset !important;
+    font-weight: unset !important;
+}
+
+.card {
+    background-color: var(--osc2) !important;
+    border: unset !important;
+}
+
+.card-body-form {
+    background-color: unset !important;
+    color: var(--texto) !important;
+}
+
+.alert-secondary {
+    border-color: unset !important;
+}
+
+
+/* Login form */
+.form-control {
+    border-radius: 5px !important;
+    background: var(--osc3) !important;
+    color: var(--texto2) !important;
+}
+
+.card-body-msj {
+    background-color: var(--osc3) !important;
+    color: var(--texto2) !important;
+}
+
+.modal-content {
+    background-color: #121517ef !important;
+    border-radius: 10px !important;
+}
+
+.modal-header {
+    border-radius: unset !important;
+    border-bottom: unset !important;
+}
+
+.close {
+    color: white !important;
+    text-shadow: unset !important;
+}
+
+#serviceui {
+    border-color: unset !important;
+    border: unset !important;
+    background-color: var(--azul_osc) !important;
+}
