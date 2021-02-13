@@ -37,6 +37,10 @@ body footer.footer div.container span {
     border-color: unset !important;
 }
 
+.bg-light {
+    background-color: unset !important;
+}
+
 
 /* Login form */
 .form-control {
