@@ -8,7 +8,7 @@
  "content_scripts": [
    {
      "matches": ["https://portal.uc.cl/*", "https://sso.uc.cl/*"],
-     "css": ["general.css", "portal.css", "portal_dark.css", "login_dark.css"]
+     "css": ["css/general.css", "css/portal.css", "css/portal_dark.css", "css/login_dark.css"]
     }
  ]
 }
