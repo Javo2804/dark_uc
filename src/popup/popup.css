@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+    --osc1: #121517 !important;
+    --osc2: #292c2f !important;
+    --osc3: #555c62 !important;
+    --osc4: #727b83 !important;
+    --azul_osc: #2f549e !important;
+    --azul_osc1: #486eb8 !important;
+    --azul_osc2: #6087d2 !important;
+    --azul_trad: #94aedf !important;
+    --azul_selec: #6087d2 !important;
+    --texto: rgba(255, 255, 255, 0.92) !important;
+    --texto2: rgba(255, 255, 255, 0.8) !important;
+    --texto_dest: #94aedf !important;
+    --borde_tabla: #121517 !important;
+    --seleccionado: #febe10 !important;
+    --destacado: #FEBE10 !important;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--osc1);
+    color: var(--texto);
+    text-align: center;
+    width: 300px;
+}
+
+#logo {
+    border: 1px solid var(--texto2);
+    border-radius: 10px;
+}
+
+button {
+    background-color: var(--osc2);
+    color: var(--texto2);
+    border: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 4px 2px;
+    display: inline-block;
+    transition: .25s ease;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05)
+}

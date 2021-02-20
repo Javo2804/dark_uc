@@ -1,7 +1,7 @@
 /* DARK MODE PORTAL UC */
 
 body, #content-wrapper {
-    background: rgb(18, 21, 23) !important;
+    background: var(--osc1) !important;
 }
 
 #banner, div.tabs-hide, #content-wrapper {
@@ -16,7 +16,8 @@ body, #content-wrapper {
 }
 
 .portlet {
-    box-shadow: unset !important;
+    /* box-shadow: unset !important; */
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px 0, rgba(0, 0, 0, 0.15) 0 1px 3px 1px !important;
     background: var(--osc2) !important;
 }
 
@@ -120,7 +121,12 @@ a.botonEstandar {
     color: var(--seleccionado) !important;
 }
 
+hr {
+    border-color: var(--dism2) !important;
+}
+
 /* INTRA Y SERVICIOS */
+
 div.sdmenuIntra div span, div.sdmenuServ div span {
     color: var(--texto) !important;
 }
@@ -130,6 +136,7 @@ div.sdmenuIntra div a, div.sdmenuServ div a {
 }
 
 /* TOP MEDIO INICIO */
+
 div.journal-content-article div {
     border: unset !important;
     color: unset !important;
@@ -141,6 +148,7 @@ div.journal-content-article font {
 }
 
 /* BuscaPersonas */
+
 div.BP_Pestannas_tabcontents {
     border: unset !important;
 }
@@ -196,10 +204,15 @@ span[title="Enviar Correo"]>img {
 }
 
 /* DATOS PERSONALES */
+
 div[class*="DatosPersonales"] select {
     background: var(--osc4) !important;
     color: var(--texto2) !important;
     cursor: pointer !important;
+}
+
+div[class*="DatosPersonales"] select:hover {
+    background: var(--oscextra) !important;
 }
 
 .table_data .dp-boton {
@@ -228,8 +241,10 @@ div[class*="DatosPersonales"] select {
 }
 
 /* Info relacion persona UC */
-.IP-uportal-td1 {
+
+.IP-uportal-td1, .IP-alumno-tr {
     color: unset !important;
+    background: unset !important;
 }
 
 .IP-tabla {
@@ -237,10 +252,6 @@ div[class*="DatosPersonales"] select {
     color: unset !important;
     font: unset !important;
     border-collapse: collapse !important;
-}
-
-.IP-alumno-tr {
-    color: unset !important;
 }
 
 .IP-tabla th, .IP-tabla td {
@@ -251,7 +262,12 @@ div[class*="infopersona"] td[colspan="2"] {
     padding-left: 0px !important;
 }
 
+.IP-expandido, .IP-noexpandido {
+    filter: invert() !important;
+}
+
 /* CARGA ACADEMICA */
+
 .hc-uportal-background-content {
     background: unset !important;
 }
@@ -265,29 +281,31 @@ div[class*="infopersona"] td[colspan="2"] {
 
 .hc-table_data tbody td {
     background-color: unset !important;
-    border: solid 1px #121517 !important;
+    border: solid 1px var(--borde_tabla) !important;
     color: unset !important;
 }
 
 .hc-table_data tbody th {
     color: unset !important;
-    background-color: #555c62 !important;
-    border: solid 1px #121517 !important;
+    background-color: var(--osc3) !important;
+    border: solid 1px var(--borde_tabla) !important;
 }
 
 .hc-table_data thead th {
     color: unset !important;
-    background-color: #555c62 !important;
-    border: solid 1px #121517 !important;
+    background-color: var(--osc3) !important;
+    border: solid 1px var(--borde_tabla) !important;
 }
 
 a.hc-descripcion {
-    color: var(--azul_osc) !important;
+    color: black !important;
 }
 
 .hc-descripcion span {
     border: unset !important;
     border-radius: 10px !important;
+    /* IMPORTANTE COLOR FIJO PARA POP-UP DE INFO HORARIO */
+    background-color: #313131 !important;
 }
 
 select[name="PeriodoSelec"] {
@@ -308,7 +326,44 @@ input.uportal-button[name="searchPeriodo"] {
     margin-top: 10px !important;
 }
 
+.hc-td>div>a>span>table td {
+    color: var(--texto2) !important;
+}
+
+.hc-color-clase-1 {
+    background-color: #EB9007!important;
+}
+
+.hc-color-clase-2 {
+    background-color: #4F9D4F!important;
+}
+
+.hc-color-clase-3 {
+    background-color: #338CE4!important;
+}
+
+.hc-color-clase-4 {
+    background-color: #FF30FF!important;
+}
+
+.hc-color-clase-5 {
+    background-color: #7A6DEE!important;
+}
+
+.hc-color-clase-6 {
+    background-color: #9D9D4F!important;
+}
+
+.hc-color-clase-7 {
+    background-color: #3DD7D7!important;
+}
+
+.hc-color-clase-otro {
+    background-color: #FF0E0E!important;
+}
+
 /* Suspension y anulacion */
+
 .well {
     background-color: var(--osc3) !important;
     border: unset !important;
@@ -316,11 +371,13 @@ input.uportal-button[name="searchPeriodo"] {
 }
 
 /* FECHAS DE INSCRIPCIÓN CURSOS */
+
 .ED-legend_sustentador {
     color: unset !important;
 }
 
 /* RETENCIONES */
+
 .ED-table2 {
     border: unset !important;
 }
@@ -334,11 +391,15 @@ input.uportal-button[name="searchPeriodo"] {
 }
 
 /* CERTIFICADOS */
+
 /*nada en certificados */
+
 /* Calendario Académico */
+
 /*.ui-datepicker-inline {
       padding: 0;
     }*/
+
 #ui-datepicker-div, .ui-datepicker-inline {
     background: unset !important;
 }
@@ -352,7 +413,20 @@ input.uportal-button[name="searchPeriodo"] {
     border: 1px solid var(--osc2) !important;
 }
 
+.ui-datepicker-links {
+    background: var(--osc3) !important;
+}
+
+.ui-datepicker-prev a, .ui-datepicker-next a {
+    filter: invert() !important;
+}
+
+.upcal-view-links {
+    background-color: var(--osc3) !important;
+}
+
 /* Situacion deuda */
+
 .morosidad-tabla {
     font-family: unset !important;
 }
@@ -398,6 +472,7 @@ div[class*="Morosidad"] table td {
 }
 
 /* Cuentas por vencer */
+
 .cpp-td1, .cpp-td2 {
     background: unset !important;
     color: unset !important;
@@ -408,6 +483,7 @@ div[class*="CuentasPorPagar"] table td {
 }
 
 /* Beneficios */
+
 .dase-Pestannas_tabcontentSelected {
     background: unset !important;
 }
@@ -419,19 +495,23 @@ div[class*="CuentasPorPagar"] table td {
 
 .dase-Pestannas_tabcontentSelected table tbody td {
     background-color: unset !important;
-    border: solid 1px #121517 !important;
+    border: solid 1px var(--borde_tabla) !important;
 }
 
 .dase-Pestannas_tabcontentSelected table tbody th {
-    color: #ffffffeb !important;
-    background-color: #555c62 !important;
-    border: solid 1px #121517 !important;
+    color: var(--texto) !important;
+    background-color: var(--osc3) !important;
+    border: solid 1px var(--borde_tabla) !important;
 }
 
 .dase-Pestannas_tabcontentSelected table .dase-th {
-    color: #ffffffeb !important;
-    background-color: #555c62 !important;
-    border: solid 1px #121517 !important;
+    color: var(--texto) !important;
+    background-color: var(--osc3) !important;
+    border: solid 1px var(--borde_tabla) !important;
+}
+
+.dase-td1, .dase-td2 {
+    background: unset !important;
 }
 
 span.campo {
@@ -450,33 +530,33 @@ table.convenios {
 
 table.convenios tbody td {
     background-color: unset !important;
-    border: solid 1px #121517 !important;
+    border: solid 1px var(--borde_tabla) !important;
 }
 
 table.convenios tbody th {
-    color: #ffffffeb !important;
-    background-color: #555c62 !important;
-    border: solid 1px #121517 !important;
+    color: var(--texto) !important;
+    background-color: var(--osc3) !important;
+    border: solid 1px var(--borde_tabla) !important;
 }
 
 table.convenios thead th {
-    color: #ffffffeb !important;
-    background-color: #555c62 !important;
-    border: solid 1px #121517 !important;
+    color: var(--texto) !important;
+    background-color: var(--osc3) !important;
+    border: solid 1px var(--borde_tabla) !important;
 }
 
 table.convenios tbody td {
-    color: #ffffffeb !important;
+    color: var(--texto) !important;
 }
 
 .dase-Pestannas_menuList li a {
-    background: #555c62 !important;
+    background: var(--osc3) !important;
     color: unset !important;
 }
 
 .dase-Pestannas_menuList li.selected a {
-    background: #727b83 !important;
-    border-bottom: 1px solid #727b83 !important;
+    background: var(--osc4) !important;
+    border-bottom: 1px solid var(--osc4) !important;
 }
 
 .dase-Pestannas_tabcontents {
@@ -484,6 +564,7 @@ table.convenios tbody td {
 }
 
 /* CONVENIO SOFTWARE */
+
 div.convenio {
     background-color: var(--osc3) !important;
 }
@@ -493,12 +574,14 @@ div.cond_uso {
 }
 
 /* POP UP */
+
 .popup-alert-notice {
-	background-color: var(--destacado) !important;
-	border-bottom: unset !important;
-	/* color: var(--texto2); */
+    background-color: var(--destacado) !important;
+    border-bottom: unset !important;
+    /* color: var(--texto2); */
 }
+
 input.popup-alert-close {
-  border: 1px solid !important;
-  border-color: #dedede #bfbfbf #bfbfbf #dedede !important;
+    border: 1px solid !important;
+    border-color: var(--texto) !important;
 }
