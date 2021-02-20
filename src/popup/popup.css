@@ -16,3 +16,34 @@
     --seleccionado: #febe10 !important;
     --destacado: #FEBE10 !important;
 }
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--osc1);
+    color: var(--texto);
+    text-align: center;
+    width: 300px;
+}
+
+#logo {
+    border: 1px solid var(--texto2);
+    border-radius: 10px;
+}
+
+button {
+    background-color: var(--osc2);
+    color: var(--texto2);
+    border: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 4px 2px;
+    display: inline-block;
+    transition: .25s ease;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05)
+}

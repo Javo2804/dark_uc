@@ -1,13 +1,26 @@
 {
- "manifest_version": 2,
- "name": "Modo Oscuro UC",
- "version": "0.2.0",
- "description": "Extensión que permite activar Modo Oscuro en plataformas de la UC.",
- "short_name": "Dark UC",
- "content_scripts": [
-   {
-     "matches": ["https://portal.uc.cl/*", "https://sso.uc.cl/*"],
-     "css": ["general.css", "portal.css", "portal_dark.css", "login_dark.css"]
+  "manifest_version": 3,
+  "name": "Modo Oscuro UC",
+  "version": "0.3.0",
+  "author": "Javier Z. Avello",
+  "description": "Extensión que permite activar Modo Oscuro en plataformas de la UC.",
+  "short_name": "Dark UC",
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "Configuración Modo Oscuro UC",
+    "default_icon": {
+      "16": "imagenes/icono/16.png",
+      "32": "imagenes/icono/32.png",
+      "128": "imagenes/icono/icono.png"
+    },
+    "permissions": [
+      "storage"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://portal.uc.cl/*", "https://sso.uc.cl/*"],
+      "css": ["css/general.css", "css/portal.css", "css/portal_dark.css", "css/login_dark.css"]
     }
- ]
+  ]
 }
