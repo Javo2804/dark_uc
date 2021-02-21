@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Modo Oscuro UC",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": "Javier Z. Avello",
   "description": "Extensión que permite activar Modo Oscuro en plataformas de la UC.",
   "short_name": "Dark UC",
@@ -12,10 +12,7 @@
       "16": "imagenes/icono/16.png",
       "32": "imagenes/icono/32.png",
       "128": "imagenes/icono/icono.png"
-    },
-    "permissions": [
-      "storage"
-    ]
+    }
   },
   "content_scripts": [
     {
