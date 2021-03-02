@@ -473,13 +473,26 @@ div[class*="Morosidad"] table td {
 
 /* Cuentas por vencer */
 
-.cpp-td1, .cpp-td2 {
-    background: unset !important;
+.cpp-td, .cpp-td1, .cpp-td2, .cpp-th, .cpp-total {
+    background: var(--osc3) !important;
     color: unset !important;
+    border: unset !important;
 }
 
 div[class*="CuentasPorPagar"] table td {
     border: solid 1px var(--borde_tabla) !important;
+}
+
+.cpp-tabla {
+    background: unset !important;
+}
+
+.cpp-th > th {
+    text-align: center !important;
+}
+
+.cpp-th > th:last-child {
+    text-align: right !important;
 }
 
 /* Beneficios */
