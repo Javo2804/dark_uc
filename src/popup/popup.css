@@ -29,6 +29,11 @@ body.actualizacion {
     max-width: 600px;
     margin: auto;
     padding-top: 25px;
+    color: var(--texto);
+}
+
+.actualizacion small {
+    color: var(--texto2);
 }
 
 body.popup1 {
