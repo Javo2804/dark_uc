@@ -1,0 +1,210 @@
+:root.duc {
+    --osc1: #121212 !important;
+    --osc2: #1e1e1e !important;
+    --osc3: #292929 !important;
+    --osc4: #343434 !important;
+    --osc5: #3f3f3f !important;
+
+    --trans: rgba(18,18,18,0.95) !important;
+    --capa: rgba(255,255,255,0.05) !important;
+    --capa2: rgba(255,255,255,0.1) !important;
+
+    --azul_osc: #2f549e !important;
+    --azul_osc1: #486eb8 !important;
+    --azul_osc2: #6087d2 !important;
+    --azul_trad: #94aedf !important;
+    --azul_selec: #6087d2 !important;
+
+    --texto: rgba(255, 255, 255, 0.92) !important;
+    --texto2: rgba(255, 255, 255, 0.8) !important;
+    --texto3: rgba(255, 255, 255, 0.7) !important;
+    --texto_dest: #94aedf !important;
+
+    --borde_tabla: #121517 !important;
+    --seleccionado: #febe10 !important;
+    --destacado: #FEBE10 !important;
+
+    --ic-brand-primary: var(--azul_osc) !important;
+    --ic-brand-global-nav-bgd: var(--azul_osc) !important;
+    --ic-brand-global-nav-logo-bgd: var(--azul_osc) !important;
+    --ic-brand-font-color-dark: var(--texto2) !important;
+    --fLzZc-borderColor: var(--texto3) !important;
+    --ic-brand-global-nav-ic-icon-svg-fill--active: var(--azul_osc2) !important;
+    --ic-brand-global-nav-menu-item__text-color--active: var(--azul_osc2) !important;
+    --ic-brand-font-color-dark-lightened-30: var(--texto3) !important;
+    --ic-brand-font-color-dark-lightened-15: var(--texto2) !important;
+    --enRcg-secondaryColor: var(--texto2) !important;
+    --ctrLD-color: var(--texto3) !important;
+}
+
+/* GENERAL */
+
+.duc body {
+    background: var(--osc1) !important;
+}
+
+.duc .ic-Layout-watermark {
+    background-image: unset !important;
+}
+
+.duc div.ic-sidebar-logo {
+    display: none !important;
+}
+
+.duc .ic-Dashboard-header__layout {
+    background: var(--trans) !important;
+}
+
+.duc .btn, .duc .Button, .duc .ui-button {
+    background: var(--osc2) !important;
+    color: var(--texto2) !important;
+    border-color: var(--osc3) !important;
+}
+
+.duc .eHiXd_dnnz, .duc a.eHiXd_dnnz, .duc button.eHiXd_dnnz, .duc button.eHiXd_dnnz[type="button"], .duc button.eHiXd_dnnz[type="reset"], .duc button.eHiXd_dnnz[type="submit"] {
+    color: var(--texto3) !important;
+}
+
+.duc .header-bar {
+    background-color: var(--osc1) !important;
+}
+
+.duc .tray-with-space-for-global-nav, .duc .ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link, .duc .fLzZc_bGBk {
+    background: var(--osc1) !important;
+}
+.duc .dxCCp_bGBk {
+    color: var(--texto2);
+}
+
+.duc .ic-Table td {
+    border-color: var(--osc3) !important;
+}
+
+.duc table {
+    background-color: var(--osc2) !important;
+}
+
+.duc select, .duc input, .duc select.ic-Input, .duc textarea.ic-Input, .duc input[type="text"].ic-Input, .duc input[type="password"].ic-Input, .duc input[type="datetime"].ic-Input, .duc input[type="datetime-local"].ic-Input, .duc input[type="date"].ic-Input, .duc input[type="month"].ic-Input, .duc input[type="time"].ic-Input, .duc input[type="week"].ic-Input, .duc input[type="number"].ic-Input, .duc input[type="email"].ic-Input, .duc input[type="url"].ic-Input, .duc input[type="search"].ic-Input, .duc input[type="tel"].ic-Input, .duc input[type="color"].ic-Input, .duc .uneditable-input.ic-Input {
+    background: var(--capa) !important;
+    border-color: var(--capa) !important;
+    color: var(--texto2) !important;
+}
+
+.duc .ui-icon-extlink {
+    filter: invert(1) !important;
+}
+
+/* Paginas */
+
+.duc #breadcrumbs {
+    background: unset !important;
+}
+
+.duc .list-view a.active {
+    border-left: 2px solid var(--texto2) !important;
+    color: var(--texto2) !important;
+}
+.duc .ic-app-nav-toggle-and-crumbs, .duc .header-bar, .duc #right-side .h2 {
+    border-bottom: 1px solid var(--texto3) !important;
+}
+.duc #context-list .context_list_context {
+    background-color: var(--osc1) !important;
+}
+
+/* Tablero */
+
+.duc .ic-DashboardCard, .duc .ic-DashboardCard__header_content {
+    background: var(--osc2) !important;
+}
+
+/* Cursos */
+
+.duc .course-list-table .course-list-table-row:hover {
+    background-color: var(--osc2) !important;
+}
+
+.duc .item-group-container {
+    background: unset !important;
+}
+
+.duc .item-group-condensed .ig-header {
+    background: var(--osc3) !important;
+    border: 1px solid var(--osc4) !important;
+}
+
+.duc .item-group-condensed .ig-row, .duc .item-group-condensed .item-group-expandable {
+    background: var(--osc2) !important;
+    border: 1px solid var(--osc4) !important;
+}
+
+.duc .item-group-expandable .emptyMessage {
+    background: unset !important;
+}
+
+.duc .ig-header .name, .duc .accessible-toggler {
+    color: var(--texto) !important;
+    text-shadow: unset !important;
+}
+
+.duc .mimeClass-pdf, .duc .mimeClass-xls, .duc .mimeClass-doc {
+    filter: invert(0.92) !important;
+}
+
+.duc .ui-tabs .ui-tabs-panel {
+    background: var(--capa) !important;
+}
+
+.duc .ui-tabs .ui-tabs-nav li.ui-state-hover, .duc .ui-tabs .ui-tabs-nav li:hover {
+    background: var(--capa) !important;
+    border-color: unset !important;
+}
+
+.duc .ui-tabs .ui-tabs-nav li.ui-tabs-active, .duc .ui-tabs .ui-tabs-nav li.ui-tabs-active.ui-state-hover, .duc .ui-tabs .ui-tabs-nav li.ui-tabs-active:hover {
+    background: var(--capa) !important;
+    border-color: var(--capa) !important;
+}
+
+.duc .ic-Table.ic-Table--hover-row tbody tr:hover, .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover, .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover, .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover, .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover {
+    background: var(--capa2) !important;
+}
+
+.duc .ic-Table.ic-Table--striped tbody tr:nth-child(odd) {
+    background: var(--capa) !important;
+}
+
+.duc .qBMHb_cSXm {
+    background: var(--osc2) !important;
+    border-color: var(--capa);
+}
+.duc .qBMHb_cSXm input {
+    background: unset !important;
+}
+.duc .ic-notification {
+    margin-top: 10px !important;
+}
+.duc .ic-notification__content {
+    background: var(--osc2) !important;
+}
+
+/* Calendario */
+.duc #minical {
+    background-color: var(--osc2) !important;
+    border: 1px solid var(--osc3) !important;
+}
+.duc #minical .fc-toolbar, .duc #minical .fc-toolbar h2, .duc #minical .fc-toolbar .h2, .duc #minical .fc-widget-content {
+    color: var(--texto3) !important;
+}
+.duc #minical .fc-bg .fc-state-highlight {
+    background: var(--osc3) !important;
+}
+.duc .fc-unthemed th, .duc .fc-unthemed td, .duc .fc-unthemed thead, .duc .fc-unthemed tbody, .duc .fc-unthemed .fc-divider, .duc .fc-unthemed .fc-row, .duc .fc-unthemed .fc-popover {
+    border-color: var(--osc1) !important;
+}
+.duc #calendar-app .fc-month-view .fc-today, .duc #calendar-drag-and-drop-container .fc-month-view .fc-today {
+    background-color: var(--osc3) !important;
+}
+
+/* Mensajes */
+.duc .message-list .messages>li {
+    background: var(--osc1) !important;
+}
