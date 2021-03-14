@@ -22,6 +22,21 @@ body {
     background-color: var(--osc1);
     color: var(--texto);
     text-align: center;
+}
+
+body.actualizacion {
+    font-size: 1em;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 25px;
+    color: var(--texto);
+}
+
+.actualizacion small {
+    color: var(--texto2);
+}
+
+body.popup1 {
     width: 300px;
 }
 
@@ -46,4 +61,26 @@ button {
 
 button:hover {
     transform: scale(1.05)
+}
+
+.chico {
+    font-size: 0.8em;
+}
+
+.opcion {
+    font-size: 14px;
+    background-color: var(--osc2);
+    padding: 10px 5px 10px;
+    border-radius: 10px;
+}
+
+.opcion select {
+    background: none;
+    background-color: var(--osc3);
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 4px 2px;
+    color: var(--texto2);
+    margin-top: 15px;
 }

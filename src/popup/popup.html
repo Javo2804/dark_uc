@@ -7,11 +7,25 @@
     <meta charset="utf-8">
 </head>
 
-<body id="browser-action-body" class="user-selection-blocked">
+<body class="popup1">
     <div class="main">
         <img draggable="false" id="logo" src="logo.jpg" width="64">
         <h1 id="titulo">Modo Oscuro UC</h1>
-        <article id="browser-action-article">
+        <article>
+            <!-- <h2>Configuración</h2>
+            <button id="ir-config">
+                Configuración
+            </button> -->
+            <div id="config1" class="opcion">
+                Modo Oscuro en Canvas <i><b>(experimental)</b></i>
+                <br>
+                <select id="setcanvas">
+                    <option value="true">Activado</option>
+                    <option value="false">Desactivado</option>
+                </select>
+            </div>
+        </article>
+        <article>
             <h2>¿Dudas o sugerencias?</h2>
             <a draggable="false" href="https://avello.cl/33659abe927f4e239083f54030fd84ee#128c37ce587849b1966c02fec18942c5" target="_blank">
                 <button>
@@ -28,6 +42,7 @@
         <p>Desarrollado por Javier Zepeda Avello</p>
     </div>
     <script src="popup.js"></script>
+    <script src="config.js"></script>
 </body>
 
 </html>
