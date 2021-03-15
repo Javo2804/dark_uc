@@ -14,5 +14,4 @@ Extensión aún en desarrollo.
 ## Por hacer
 - Revisar compatibilidad con Firefox.
 - Crear un menú de configuración (Activar/Desactivar).
-- Crear un modo claro con la misma estructura mejorada del modo oscuro.
 - Aplicar modo oscuro a más plataformas de la UC, tales como Canvas, LABMAT, SIDING, Buscacursos, etc.
