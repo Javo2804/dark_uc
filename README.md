@@ -8,8 +8,11 @@ Lo puedes descargar [aquí](https://chrome.google.com/webstore/detail/modo-oscur
 
 # Desarrollo
 Extensión aún en desarrollo.
+- Portal UC ✅
+- Canvas <i>(experimental)</i> 🆕
+
 ## Por hacer
 - Revisar compatibilidad con Firefox.
 - Crear un menú de configuración (Activar/Desactivar).
 - Crear un modo claro con la misma estructura mejorada del modo oscuro.
-- Ampliar modo oscuro a otras plataformas de la UC, como Canvas, LABMAT, SIDING, Buscacursos, etc.
+- Aplicar modo oscuro a más plataformas de la UC, tales como Canvas, LABMAT, SIDING, Buscacursos, etc.
