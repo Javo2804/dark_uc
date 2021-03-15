@@ -1,6 +1,7 @@
 # Extensión UC Modo Oscuro
 Extensión para Google Chrome que permite establer modo oscuro en servicios de la UC: Portal UC y Canvas.
-<small> * El modo oscuro para Canvas está en modo experimental, pueden existir problemas en la visualización de algunos objetos. Por esta razón, este se puede activar manualmente en el menú de la extensión. Además, durante una evaluación, no se recomienda tener activado el modo oscuro en Canvas.
+
+<i> * El modo oscuro para Canvas está en modo experimental, pueden existir problemas en la visualización de algunos objetos. Por esta razón, este se puede activar manualmente en el menú de la extensión. No se recomienda tener activado el modo oscuro en Canvas durante una evaluación. </o>
 
 ## Link de Descarga
 Lo puedes descargar [aquí](https://chrome.google.com/webstore/detail/modo-oscuro-portal-uc/ogiobdogepdcolmgaelekejafmnfnedc).
