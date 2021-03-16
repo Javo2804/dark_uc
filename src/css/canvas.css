@@ -35,6 +35,7 @@
     --ic-brand-font-color-dark-lightened-15: var(--texto2) !important;
     --enRcg-secondaryColor: var(--texto2) !important;
     --ctrLD-color: var(--texto3) !important;
+    --fNHEA-labelColor: var(--texto3) !important;
 }
 
 /* GENERAL */
@@ -59,6 +60,10 @@
     background: var(--osc2) !important;
     color: var(--texto2) !important;
     border-color: var(--osc3) !important;
+}
+
+.duc .btn-primary, .duc .Button--primary {
+    background: var(--azul_osc) !important;
 }
 
 .duc .eHiXd_dnnz, .duc a.eHiXd_dnnz, .duc button.eHiXd_dnnz, .duc button.eHiXd_dnnz[type="button"], .duc button.eHiXd_dnnz[type="reset"], .duc button.eHiXd_dnnz[type="submit"] {
@@ -111,6 +116,28 @@
 .duc .group_user_8330, .duc .group_user_8330:hover, .duc .group_user_8330:focus {
     background-color: var(--osc2) !important ;
 }
+
+/* Quizzes */
+.duc #questions.assessing {
+    background: var(--osc1) !important;
+}
+.duc .question {
+    background-color: var(--osc2) !important;
+}
+.duc .question .header {
+    background-color: var(--osc3) !important;
+}
+.duc .canvas-rce__skins--root {
+    background-color: var(--osc2) !important;
+}
+.duc .quiz-submission, .duc .question_editing {
+    background: unset !important;
+    border: unset !important;
+}
+.duc .quiz_score .score_value {
+    color: var(--texto3) !important;
+}
+
 /* Paginas */
 
 .duc #breadcrumbs {
@@ -163,7 +190,7 @@
     text-shadow: unset !important;
 }
 
-.duc .mimeClass-pdf, .duc .mimeClass-xls, .duc .mimeClass-doc, .duc .mimeClass-folder {
+.duc .mimeClass-audio, .duc .mimeClass-code, .duc .mimeClass-doc, .duc .mimeClass-flash, .duc .mimeClass-folder, .duc .mimeClass-folder-locked, .duc .mimeClass-html, .duc .mimeClass-image, .duc .mimeClass-pdf, .duc .mimeClass-ppt, .duc .mimeClass-text, .duc .mimeClass-video, .duc .mimeClass-xls, .duc .mimeClass-zip, .duc .mimeClass-file {
     filter: invert(0.92) !important;
 }
 
