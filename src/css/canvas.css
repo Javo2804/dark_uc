@@ -84,6 +84,12 @@
     background-color: var(--osc2) !important;
 }
 
+.duc textarea, .duc input[type="text"], .duc input[type="password"], .duc input[type="datetime"], .duc input[type="datetime-local"], .duc input[type="date"], .duc input[type="month"], .duc input[type="time"], .duc input[type="week"], .duc input[type="number"], .duc input[type="email"], .duc input[type="url"], .duc input[type="search"], .duc input[type="tel"], .duc input[type="color"], .duc .uneditable-input {
+    background: var(--capa) !important;
+    border-color: var(--capa) !important;
+    color: var(--texto2) !important;
+}
+
 .duc select, .duc input, .duc select.ic-Input, .duc textarea.ic-Input, .duc input[type="text"].ic-Input, .duc input[type="password"].ic-Input, .duc input[type="datetime"].ic-Input, .duc input[type="datetime-local"].ic-Input, .duc input[type="date"].ic-Input, .duc input[type="month"].ic-Input, .duc input[type="time"].ic-Input, .duc input[type="week"].ic-Input, .duc input[type="number"].ic-Input, .duc input[type="email"].ic-Input, .duc input[type="url"].ic-Input, .duc input[type="search"].ic-Input, .duc input[type="tel"].ic-Input, .duc input[type="color"].ic-Input, .duc .uneditable-input.ic-Input {
     background: var(--capa) !important;
     border-color: var(--capa) !important;
@@ -93,7 +99,18 @@
 .duc .ui-icon-extlink {
     filter: invert(1) !important;
 }
-
+.duc .ic-flash-info, .duc .ic-flash-success, .duc .ic-flash-warning, .duc .ic-flash-error {
+    background-color: var(--osc2) !important;
+}
+.duc .ColorPicker__Container {
+    background: var(--osc3) !important;
+}
+.duc .ui-dialog .ui-dialog-titlebar.ui-widget-header, .duc .ui-dialog .ui-datepicker .ui-widget-header.ui-datepicker-header, .duc .ui-datepicker .ui-dialog .ui-widget-header.ui-datepicker-header {
+    background: var(--osc3) !important;
+}
+.duc .group_user_8330, .duc .group_user_8330:hover, .duc .group_user_8330:focus {
+    background-color: var(--osc2) !important ;
+}
 /* Paginas */
 
 .duc #breadcrumbs {
@@ -146,7 +163,7 @@
     text-shadow: unset !important;
 }
 
-.duc .mimeClass-pdf, .duc .mimeClass-xls, .duc .mimeClass-doc {
+.duc .mimeClass-pdf, .duc .mimeClass-xls, .duc .mimeClass-doc, .duc .mimeClass-folder {
     filter: invert(0.92) !important;
 }
 
@@ -184,6 +201,30 @@
 }
 .duc .ic-notification__content {
     background: var(--osc2) !important;
+}
+.duc .toolbarView {
+    background: var(--osc2) !important;
+}
+.duc .toolbarView .headerBar {
+    background: var(--osc2) !important;
+    border: 1px solid var(--capa) !important;
+}
+.duc .topic .entry-content {
+    border-left: 1px solid var(--capa2) !important;
+    border-right: 1px solid var(--capa2) !important;
+}
+.duc .module-sequence-footer .module-sequence-footer-content {
+    background: unset !important;
+}
+.duc .ig-list .ig-row.ig-row-empty {
+    background: var(--osc1) !important;
+    border: 1px solid var(--capa) !important;
+}
+.duc .ef-item-row:hover {
+    background-color: var(--capa) !important;
+}
+.duc .ef-item-row.ef-item-selected {
+    background-color: var(--capa2) !important;
 }
 
 /* Calendario */
