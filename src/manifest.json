@@ -29,7 +29,12 @@
     },
     {
       "matches": ["https://cursos.canvas.uc.cl/*"],
-      "css": ["css/canvas.css"],
+      "match_about_blank": true,
+      "all_frames": true,
+      "css": ["css/canvas.css"]
+    },
+    {
+      "matches": ["https://cursos.canvas.uc.cl/*"],
       "js": ["js/canvas.js"]
     }
   ]
