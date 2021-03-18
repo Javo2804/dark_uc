@@ -137,6 +137,9 @@
 .duc .quiz_score .score_value {
     color: var(--texto3) !important;
 }
+.duc table.summary td, .duc table.summary tbody th {
+    background-color: var(--osc1);
+}
 
 /* Paginas */
 
@@ -191,7 +194,7 @@
 }
 
 .duc .mimeClass-audio, .duc .mimeClass-code, .duc .mimeClass-doc, .duc .mimeClass-flash, .duc .mimeClass-folder, .duc .mimeClass-folder-locked, .duc .mimeClass-html, .duc .mimeClass-image, .duc .mimeClass-pdf, .duc .mimeClass-ppt, .duc .mimeClass-text, .duc .mimeClass-video, .duc .mimeClass-xls, .duc .mimeClass-zip, .duc .mimeClass-file {
-    filter: invert(0.92) !important;
+    filter: invert(0.93) !important;
 }
 
 .duc .ui-tabs .ui-tabs-panel {
