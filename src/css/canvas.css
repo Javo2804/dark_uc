@@ -35,6 +35,7 @@
     --ic-brand-font-color-dark-lightened-15: var(--texto2) !important;
     --enRcg-secondaryColor: var(--texto2) !important;
     --ctrLD-color: var(--texto3) !important;
+    --fNHEA-labelColor: var(--texto3) !important;
 }
 
 /* GENERAL */
@@ -61,6 +62,10 @@
     border-color: var(--osc3) !important;
 }
 
+.duc .btn-primary, .duc .Button--primary {
+    background: var(--azul_osc) !important;
+}
+
 .duc .eHiXd_dnnz, .duc a.eHiXd_dnnz, .duc button.eHiXd_dnnz, .duc button.eHiXd_dnnz[type="button"], .duc button.eHiXd_dnnz[type="reset"], .duc button.eHiXd_dnnz[type="submit"] {
     color: var(--texto3) !important;
 }
@@ -84,6 +89,12 @@
     background-color: var(--osc2) !important;
 }
 
+.duc textarea, .duc input[type="text"], .duc input[type="password"], .duc input[type="datetime"], .duc input[type="datetime-local"], .duc input[type="date"], .duc input[type="month"], .duc input[type="time"], .duc input[type="week"], .duc input[type="number"], .duc input[type="email"], .duc input[type="url"], .duc input[type="search"], .duc input[type="tel"], .duc input[type="color"], .duc .uneditable-input {
+    background: var(--capa) !important;
+    border-color: var(--capa) !important;
+    color: var(--texto2) !important;
+}
+
 .duc select, .duc input, .duc select.ic-Input, .duc textarea.ic-Input, .duc input[type="text"].ic-Input, .duc input[type="password"].ic-Input, .duc input[type="datetime"].ic-Input, .duc input[type="datetime-local"].ic-Input, .duc input[type="date"].ic-Input, .duc input[type="month"].ic-Input, .duc input[type="time"].ic-Input, .duc input[type="week"].ic-Input, .duc input[type="number"].ic-Input, .duc input[type="email"].ic-Input, .duc input[type="url"].ic-Input, .duc input[type="search"].ic-Input, .duc input[type="tel"].ic-Input, .duc input[type="color"].ic-Input, .duc .uneditable-input.ic-Input {
     background: var(--capa) !important;
     border-color: var(--capa) !important;
@@ -92,6 +103,42 @@
 
 .duc .ui-icon-extlink {
     filter: invert(1) !important;
+}
+.duc .ic-flash-info, .duc .ic-flash-success, .duc .ic-flash-warning, .duc .ic-flash-error {
+    background-color: var(--osc2) !important;
+}
+.duc .ColorPicker__Container {
+    background: var(--osc3) !important;
+}
+.duc .ui-dialog .ui-dialog-titlebar.ui-widget-header, .duc .ui-dialog .ui-datepicker .ui-widget-header.ui-datepicker-header, .duc .ui-datepicker .ui-dialog .ui-widget-header.ui-datepicker-header {
+    background: var(--osc3) !important;
+}
+.duc .group_user_8330, .duc .group_user_8330:hover, .duc .group_user_8330:focus {
+    background-color: var(--osc2) !important ;
+}
+
+/* Quizzes */
+.duc #questions.assessing {
+    background: var(--osc1) !important;
+}
+.duc .question {
+    background-color: var(--osc2) !important;
+}
+.duc .question .header {
+    background-color: var(--osc3) !important;
+}
+.duc .canvas-rce__skins--root {
+    background-color: var(--osc2) !important;
+}
+.duc .quiz-submission, .duc .question_editing {
+    background: unset !important;
+    border: unset !important;
+}
+.duc .quiz_score .score_value {
+    color: var(--texto3) !important;
+}
+.duc table.summary td, .duc table.summary tbody th {
+    background-color: var(--osc1);
 }
 
 /* Paginas */
@@ -146,8 +193,8 @@
     text-shadow: unset !important;
 }
 
-.duc .mimeClass-pdf, .duc .mimeClass-xls, .duc .mimeClass-doc {
-    filter: invert(0.92) !important;
+.duc .mimeClass-audio, .duc .mimeClass-code, .duc .mimeClass-doc, .duc .mimeClass-flash, .duc .mimeClass-folder, .duc .mimeClass-folder-locked, .duc .mimeClass-html, .duc .mimeClass-image, .duc .mimeClass-pdf, .duc .mimeClass-ppt, .duc .mimeClass-text, .duc .mimeClass-video, .duc .mimeClass-xls, .duc .mimeClass-zip, .duc .mimeClass-file {
+    filter: invert(0.93) !important;
 }
 
 .duc .ui-tabs .ui-tabs-panel {
@@ -184,6 +231,30 @@
 }
 .duc .ic-notification__content {
     background: var(--osc2) !important;
+}
+.duc .toolbarView {
+    background: var(--osc2) !important;
+}
+.duc .toolbarView .headerBar {
+    background: var(--osc2) !important;
+    border: 1px solid var(--capa) !important;
+}
+.duc .topic .entry-content {
+    border-left: 1px solid var(--capa2) !important;
+    border-right: 1px solid var(--capa2) !important;
+}
+.duc .module-sequence-footer .module-sequence-footer-content {
+    background: unset !important;
+}
+.duc .ig-list .ig-row.ig-row-empty {
+    background: var(--osc1) !important;
+    border: 1px solid var(--capa) !important;
+}
+.duc .ef-item-row:hover {
+    background-color: var(--capa) !important;
+}
+.duc .ef-item-row.ef-item-selected {
+    background-color: var(--capa2) !important;
 }
 
 /* Calendario */
