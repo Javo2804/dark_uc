@@ -17,7 +17,9 @@
 
     --texto: rgba(255, 255, 255, 0.92) !important;
     --texto2: rgba(255, 255, 255, 0.8) !important;
-    --texto3: rgba(255, 255, 255, 0.7) !important;
+    --texto3: rgba(255, 255, 255, 0.68) !important;
+    --texto4: rgba(255, 255, 255, 0.56) !important;
+    --texto5: rgba(255, 255, 255, 0.44) !important;
     --texto_dest: #94aedf !important;
 
     --borde_tabla: #121517 !important;
@@ -57,7 +59,7 @@
 }
 
 .duc .btn, .duc .Button, .duc .ui-button {
-    background: var(--osc2) !important;
+    background: var(--capa) !important;
     color: var(--texto2) !important;
     border-color: var(--osc3) !important;
 }
@@ -112,9 +114,13 @@
 }
 .duc .ui-dialog .ui-dialog-titlebar.ui-widget-header, .duc .ui-dialog .ui-datepicker .ui-widget-header.ui-datepicker-header, .duc .ui-datepicker .ui-dialog .ui-widget-header.ui-datepicker-header {
     background: var(--osc3) !important;
+    border-bottom: 1px solid var(--capa2) !important;
 }
 .duc .group_user_8330, .duc .group_user_8330:hover, .duc .group_user_8330:focus {
     background-color: var(--osc2) !important ;
+}
+.duc hr {
+    border-top: 1px solid var(--capa2) !important;
 }
 
 /* Quizzes */
@@ -139,6 +145,9 @@
 }
 .duc table.summary td, .duc table.summary tbody th {
     background-color: var(--osc1);
+}
+.duc .ui-datepicker .ui-datepicker-time, .duc .ui-dialog .ui-dialog-buttonpane,.duc .ui-dialog .ui-datepicker .ui-datepicker-time, .duc .ui-datepicker .ui-dialog .ui-datepicker-time {
+    border-top: 1px solid var(--capa2) !important;
 }
 
 /* Paginas */
@@ -277,5 +286,54 @@
 
 /* Mensajes */
 .duc .message-list .messages>li {
+    background: var(--osc2) !important;
+    border-bottom: 1px solid var(--capa2) !important;
+}
+.duc .message-list .messages>li.active {
+    background: var(--osc3) !important;
+}
+.duc .ac-input-box {
+    background: var(--osc2) !important;
+    border: 1px solid var(--capa) !important;
+}
+.duc .conversations .panel {
+    background: var(--osc3) !important;
+    border-bottom: 1px solid var(--capa) !important;
+}
+.duc body.responsive_awareness .message-detail.span8, .duc body.responsive_awareness .message-detail.conversations__message-detail {
     background: var(--osc1) !important;
+}
+.duc .message-list .author {
+    color: var(--texto2) !important;
+}
+.duc .message-list .subject {
+    color: var(--texto4) !important;
+}
+.duc .message-list .summary {
+    color: var(--texto5) !important;
+}
+.duc .message-detail.span8 .user-info .context, .duc .message-detail.conversations__message-detail .user-info .context, .duc .message-detail.span8 .date, .duc .message-detail.conversations__message-detail .date {
+    color: var(--texto4) !important;
+}
+.duc #compose-new-message, .duc #submission-comment-reply {
+    background: var(--osc1) !important;
+}
+.duc .compose-message-dialog .ui-dialog-buttonpane, .duc .submission-comment-reply-dialog .ui-dialog-buttonpane {
+    background: var(--osc2) !important;
+}
+.duc #compose-new-message .conversation_body, .duc #compose-new-message .reply_body, .duc #submission-comment-reply .conversation_body, .duc #submission-comment-reply .reply_body {
+    background: var(--osc1) !important;
+}
+@media only screen and (min-width: 577px) {
+    .duc body.responsive_awareness .message-list-scroller {
+        border-right: 1px solid var(--capa2) !important;
+    }
+}
+.duc .ac-result-container {
+    background: var(--osc3) !important;
+    border: 1px solid var(--capa2) !important;
+}
+.duc .ac-token {
+    background: var(--capa2) !important;
+    border: 1px solid var(--capa) !important;
 }
