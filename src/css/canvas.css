@@ -23,9 +23,11 @@
     --texto_dest: #94aedf !important;
 
     --borde_tabla: #121517 !important;
-    --seleccionado: #febe10 !important;
+    --seleccionado: #FEBE10 !important;
     --destacado: #FEBE10 !important;
-
+    --alerta: #D32F2F !important;
+}
+:root.duc {
     --ic-brand-primary: var(--azul_osc) !important;
     --ic-brand-global-nav-bgd: var(--azul_osc) !important;
     --ic-brand-global-nav-logo-bgd: var(--azul_osc) !important;
@@ -56,6 +58,7 @@
 
 .duc .ic-Dashboard-header__layout {
     background: var(--trans) !important;
+    border-bottom: 1px solid var(--capa2) !important;
 }
 
 .duc .btn, .duc .Button, .duc .ui-button {
@@ -122,6 +125,11 @@
 .duc hr {
     border-top: 1px solid var(--capa2) !important;
 }
+.duc #right-side h2, .duc #right-side .h2 {
+    border-bottom: 1px solid var(--capa2) !important;
+}
+
+
 
 /* Quizzes */
 .duc #questions.assessing {
@@ -161,7 +169,7 @@
     color: var(--texto2) !important;
 }
 .duc .ic-app-nav-toggle-and-crumbs, .duc .header-bar, .duc #right-side .h2 {
-    border-bottom: 1px solid var(--texto3) !important;
+    border-bottom: 1px solid var(--capa2) !important;
 }
 .duc #context-list .context_list_context {
     background-color: var(--osc1) !important;
@@ -245,7 +253,7 @@
     background: var(--osc2) !important;
 }
 .duc .toolbarView .headerBar {
-    background: var(--osc2) !important;
+    background: var(--osc3) !important;
     border: 1px solid var(--capa) !important;
 }
 .duc .topic .entry-content {
@@ -265,6 +273,17 @@
 .duc .ef-item-row.ef-item-selected {
     background-color: var(--capa2) !important;
 }
+.duc .stream_header:hover, .duc .stream-details tr:hover {
+    background: var(--capa) !important;
+}
+
+/* Archivos */
+.duc .ftPBL_bGBk:not(.ftPBL_bGiS) {
+    background-color: var(--capa) !important;
+}
+.duc .esvoZ_eCSh, .duc .blnAQ_eCSh {
+    color: unset !important;
+}
 
 /* Calendario */
 .duc #minical {
@@ -282,6 +301,37 @@
 }
 .duc #calendar-app .fc-month-view .fc-today, .duc #calendar-drag-and-drop-container .fc-month-view .fc-today {
     background-color: var(--osc3) !important;
+}
+
+/* Foros */
+.duc .pinned-discussions-v2__wrapper, .duc .unpinned-discussions-v2__wrapper, .duc .closed-for-comments-discussions-v2__wrapper {
+    border: 1px solid var(--capa2) !important;
+    background-color: var(--osc2) !important;
+}
+.duc .ic-discussion-row {
+    background-color: var(--osc3) !important;
+}
+.duc .MlJlv_cjSw {
+    color: var(--texto) !important;
+}
+.duc .MlJlv_ebWM {
+    color: var(--texto2) !important;
+}
+.duc .ic-unread-badge__total-count {
+    background: var(--osc5) !important;
+}
+.duc .discussions-v2__container-image {
+    background-color: unset !important;
+}
+.duc .discussion-entries .entry {
+    background: var(--osc2) !important;
+    border: 1px solid var(--capa2) !important;
+}
+.duc .discussion_entry {
+    background: var(--osc2) !important;
+}
+.duc .read .discussion-read-state {
+    background: var(--capa) !important;
 }
 
 /* Mensajes */
