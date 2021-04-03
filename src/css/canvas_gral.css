@@ -1,0 +1,56 @@
+:root {
+    --osc1: #121212 !important;
+    --osc2: #1e1e1e !important;
+    --osc3: #292929 !important;
+    --osc4: #343434 !important;
+    --osc5: #3f3f3f !important;
+
+    --trans: rgba(18,18,18,0.95) !important;
+    --capa: rgba(255,255,255,0.05) !important;
+    --capa2: rgba(255,255,255,0.1) !important;
+
+    --azul_osc: #2f549e !important;
+    --azul_osc1: #486eb8 !important;
+    --azul_osc2: #6087d2 !important;
+    --azul_trad: #94aedf !important;
+    --azul_selec: #6087d2 !important;
+
+    --texto: rgba(255, 255, 255, 0.92) !important;
+    --texto2: rgba(255, 255, 255, 0.8) !important;
+    --texto3: rgba(255, 255, 255, 0.68) !important;
+    --texto4: rgba(255, 255, 255, 0.56) !important;
+    --texto5: rgba(255, 255, 255, 0.44) !important;
+    --texto_dest: #94aedf !important;
+
+    --borde_tabla: #121517 !important;
+    --seleccionado: #FEBE10 !important;
+    --destacado: #FEBE10 !important;
+    --alerta: #D32F2F !important;
+}
+
+/* Banner y Menu de Extensión */
+.duc-banner {
+    width: 100% !important;
+    background: var(--destacado) !important;
+    padding: 15px 24px 15px !important;
+    color: black !important;
+}
+button#cerrar-duc-banner {
+    background: none !important;
+    border: none !important;
+    position: absolute !important;
+    right: 24px !important;
+}
+div#dark_opt_canvas {
+    border: 1px solid var(--osc1) !important;
+    border-radius: 10px !important;
+    color: var(--texto) !important;
+    background: var(--osc2) !important;
+    text-align: center !important;
+    padding: 10px !important;
+}
+select#setcanvas {
+    background: var(--capa2) !important;
+    color: var(--texto2) !important;
+    border-color: var(--capa2) !important;
+}
