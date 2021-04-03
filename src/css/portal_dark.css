@@ -125,6 +125,10 @@ hr {
     border-color: var(--dism2) !important;
 }
 
+.portlet-msg-error {
+    background-color: var(--alerta) !important;
+}
+
 /* INTRA Y SERVICIOS */
 
 div.sdmenuIntra div span, div.sdmenuServ div span {
@@ -212,7 +216,7 @@ div[class*="DatosPersonales"] select {
 }
 
 div[class*="DatosPersonales"] select:hover {
-    background: var(--oscextra) !important;
+    background: var(--capa2) !important;
 }
 
 .table_data .dp-boton {
@@ -429,18 +433,23 @@ input.uportal-button[name="searchPeriodo"] {
 
 .morosidad-tabla {
     font-family: unset !important;
+    background: unset !important;
 }
 
 .morosidad-th {
     font-family: unset !important;
+    background: var(--capa) !important;
+    color: unset !important;
 }
 
 .morosidad-td {
     font-family: unset !important;
+    background: var(--capa) !important;
 }
 
 .morosidad-total {
     font-family: unset !important;
+    background: var(--capa) !important;
 }
 
 .morosidad-expandido {
@@ -597,4 +606,10 @@ div.cond_uso {
 input.popup-alert-close {
     border: 1px solid !important;
     border-color: var(--texto) !important;
+}
+
+/* TEMPORAL */
+
+span[style="color: #000080;"] {
+    color: var(--azul_osc2) !important;
 }
