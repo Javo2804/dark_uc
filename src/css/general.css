@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
     --osc1: #121212 !important;
-    --osc2: rgba(255,255,255,0.05) !important;
-    --osc3: var(--osc2) !important;
-    --osc4: var(--osc2) !important;
-    --osc5: var(--osc2) !important;
-    --oscextra: rgba(255,255,255,0.1) !important;
+    --osc2: #1e1e1e !important;
+    --osc3: #292929 !important;
+    --osc4: #343434 !important;
+    --osc5: #3f3f3f !important;
 
+    --trans: rgba(18,18,18,0.95) !important;
+    --capa: rgba(255,255,255,0.05) !important;
+    --capa2: rgba(255,255,255,0.1) !important;
     --dism2: rgba(18,18,18,0.5) !important;
 
     --azul_osc: #2f549e !important;
@@ -15,12 +17,15 @@
     --azul_trad: #94aedf !important;
     --azul_selec: #6087d2 !important;
 
-
-    --texto: rgba(255, 255, 255, 0.8) !important;
-    --texto2: rgba(255, 255, 255, 0.68) !important;
+    --texto: rgba(255, 255, 255, 0.92) !important;
+    --texto2: rgba(255, 255, 255, 0.8) !important;
+    --texto3: rgba(255, 255, 255, 0.68) !important;
+    --texto4: rgba(255, 255, 255, 0.56) !important;
+    --texto5: rgba(255, 255, 255, 0.44) !important;
     --texto_dest: #94aedf !important;
-    
+
     --borde_tabla: #121517 !important;
-    --seleccionado: #febe10 !important;
+    --seleccionado: #FEBE10 !important;
     --destacado: #FEBE10 !important;
+    --alerta: #D32F2F !important;
 }
