@@ -1,9 +1,11 @@
 function banner_evaluaciones() {
     $( "div#wrapper" ).prepend(`
         <div class="duc-banner" id="duc-banner">
-            Recuerda que el modo oscuro para Canvas es experimental, por lo que por ahora, se recomienda desactivarlo durante evaluaciones.
-            <button id="duc-btn-desactivar">Desactivar</button>
-            <!-- <button id="cerrar-duc-banner"><i class="icon-x"></i></button> -->
+            <div class="duc-subbanner">
+                Recuerda que el modo oscuro para Canvas es experimental, por lo que por ahora, se recomienda desactivarlo durante evaluaciones.
+                <button id="duc-btn-desactivar">Desactivar</button>
+                <!-- <button id="cerrar-duc-banner"><i class="icon-x"></i></button> -->
+            </div>
         </div>
     `);
     $( "#duc-btn-desactivar" ).click(function(){
