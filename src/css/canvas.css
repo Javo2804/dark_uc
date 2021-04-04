@@ -249,12 +249,26 @@
     background: var(--capa) !important;
 }
 
+/* Anuncios */
+.duc .ic-item-row {
+    box-shadow: 0 -1px var(--capa), inset 0 -1px var(--capa) !important;
+}
+
 /* Archivos */
 .duc .ftPBL_bGBk:not(.ftPBL_bGiS) {
     background-color: var(--capa) !important;
 }
 .duc .esvoZ_eCSh, .duc .blnAQ_eCSh {
     color: unset !important;
+}
+.duc .ef-header, .duc .ef-directory-header {
+    border-bottom: 1px solid var(--capa2) !important;
+}
+.duc .ef-main .ef-folder-content {
+    border-right: 1px solid var(--capa2) !important;
+}
+.duc .ef-footer {
+    border-top: 1px solid var(--capa2) !important;
 }
 
 /* Calendario */
@@ -287,7 +301,7 @@
     color: var(--texto) !important;
 }
 .duc .MlJlv_ebWM {
-    color: var(--texto2) !important;
+    color: var(--texto3) !important;
 }
 .duc .ic-unread-badge__total-count {
     background: var(--osc5) !important;
@@ -302,8 +316,19 @@
 .duc .discussion_entry {
     background: var(--osc2) !important;
 }
+.duc .discussion_entry>.discussion-entry-reply-area {
+    border-color: var(--capa) !important;
+}
+.duc .discussion-reply-box:hover, .duc .discussion-reply-box:focus {
+    border-color: var(--capa) !important;
+    color: var(--texto3) !important;
+}
 .duc .read .discussion-read-state {
     background: var(--capa) !important;
+}
+.duc .discussion-reply-box {
+    background-color: var(--osc2) !important;
+    border-color: var(--capa2) !important;
 }
 
 /* Mensajes */
@@ -358,4 +383,21 @@
 .duc .ac-token {
     background: var(--capa2) !important;
     border: 1px solid var(--capa) !important;
+}
+
+/* Configuraciones */
+.duc .ui-widget-content {
+    background: var(--osc2) !important;
+}
+.duc .bGgTf_bGBk, .duc .ccWIh_bGBk, .duc .eIQkd_bGBk, .duc .fwfoD_bGBk {
+    background: var(--osc2) !important;
+}
+.duc .eIQkd_bGBk {
+    border-bottom-color: var(--capa) !important;
+}
+.duc .fwfoD_fsuY {
+    color: var(--texto) !important;
+}
+.duc .MlJlv_dnnz {
+    color: var(--texto3) !important;
 }

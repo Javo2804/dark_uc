@@ -30,11 +30,16 @@
 
 /* Banner y Menu de Extensión */
 .duc-banner {
-    width: 100% !important;
-    background: var(--destacado) !important;
-    padding: 15px 24px 15px !important;
-    color: black !important;
+    /* width: 100% !important; */
+    background: var(--destacado);
+    color: black;
+    display: flex;
+    box-sizing: border-box;
 }
+.duc-subbanner {
+    padding: 15px 24px 15px;
+}
+
 button#cerrar-duc-banner {
     background: none !important;
     border: none !important;
