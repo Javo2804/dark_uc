@@ -100,7 +100,12 @@
 .duc #right-side h2, .duc #right-side .h2 {
     border-bottom: 1px solid var(--capa2) !important;
 }
-
+.duc #right-side .events_list .event-details:after, .duc #right-side .events_list .todo-details:after, .duc #right-side .to-do-list .event-details:after, .duc #right-side .to-do-list .todo-details:after {
+    background: unset !important;
+}
+.duc .esvoZ_drOs {
+    color: var(--texto5) !important;
+}
 
 
 /* Quizzes */
