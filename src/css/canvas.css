@@ -253,6 +253,9 @@
 .duc .stream_header:hover, .duc .stream-details tr:hover {
     background: var(--capa) !important;
 }
+.duc .file_download_btn {
+    filter: invert(0.8);
+}
 
 /* Anuncios */
 .duc .ic-item-row {

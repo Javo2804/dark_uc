@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "DarkUC - Modo Oscuro UC",
-  "version": "0.4.4",
-  "version_name": "0.4.4",
+  "version": "0.4.5",
+  "version_name": "0.4.5",
   "author": "Javier Z. Avello",
   "description": "Extensión que permite activar Modo Oscuro en plataformas de la UC.",
   "short_name": "Dark UC",
@@ -32,14 +32,13 @@
       "matches": ["https://cursos.canvas.uc.cl/*"],
       "match_about_blank": true,
       "all_frames": true,
-      "css": ["css/canvas_gral.css", "css/canvas.css"]
-    },
-    {
-      "matches": ["https://cursos.canvas.uc.cl/*"],
+      "css": ["css/canvas_gral.css", "css/canvas.css"],
       "js": ["js/jquery-3.6.0.min.js", "js/canvas.js"]
     },
     {
       "matches": ["https://cursos.canvas.uc.cl/*"],
+      "match_about_blank": true,
+      "all_frames": true,
       "run_at": "document_start",
       "js": ["js/canvas_start.js"]
     },
