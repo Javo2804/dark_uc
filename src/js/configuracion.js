@@ -1,3 +1,3 @@
 function setDark(estado) {
-    chrome.storage.sync.set({dark: estado});
+    chrome.storage.local.set({dark: estado});
 }
