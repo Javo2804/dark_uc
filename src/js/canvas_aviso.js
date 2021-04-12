@@ -10,7 +10,7 @@ function banner_evaluaciones() {
     `);
     $( "#duc-btn-desactivar" ).click(function(){
         console.log("Botón banner presionado.")
-        chrome.storage.sync.set({
+        chrome.storage.local.set({
             setcanvas: 'false',
         });
         alert("Para aplicar los cambios, debes actualizar la página.")
@@ -18,7 +18,7 @@ function banner_evaluaciones() {
 }
 
 $(document).ready(function(){
-    chrome.storage.sync.get('setcanvas', function(valor) {
+    chrome.storage.local.get('setcanvas', function(valor) {
         darkcanvas = valor.setcanvas;
         if (darkcanvas == 'true') {
             banner_evaluaciones();
