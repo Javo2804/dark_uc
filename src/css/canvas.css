@@ -134,6 +134,9 @@
 .duc .ui-datepicker .ui-datepicker-time, .duc .ui-dialog .ui-dialog-buttonpane,.duc .ui-dialog .ui-datepicker .ui-datepicker-time, .duc .ui-datepicker .ui-dialog .ui-datepicker-time {
     border-top: 1px solid var(--capa2) !important;
 }
+.duc .submission-details-comments .comments {
+    background-color: var(--osc2) !important;
+}
 
 /* Paginas */
 
@@ -148,8 +151,13 @@
 .duc .ic-app-nav-toggle-and-crumbs, .duc .header-bar, .duc #right-side .h2 {
     border-bottom: 1px solid var(--capa2) !important;
 }
+
+/* ENTREGADOS */
 .duc #context-list .context_list_context {
     background-color: var(--osc1) !important;
+}
+.duc .file-upload-submission {
+    background: var(--osc2) !important;
 }
 
 /* Tablero */
@@ -254,9 +262,14 @@
     background: var(--capa) !important;
 }
 .duc .file_download_btn {
-    filter: invert(0.8);
+    filter: invert(0.8) !important;
 }
-
+.duc .student-groups {
+    border-color: var(--capa2);
+}
+.duc .student-groups.show-body .student-group-header {
+    background-color: var(--osc3) !important;
+}
 /* Anuncios */
 .duc .ic-item-row {
     box-shadow: 0 -1px var(--capa), inset 0 -1px var(--capa) !important;
