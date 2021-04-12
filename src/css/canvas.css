@@ -108,7 +108,7 @@
 }
 
 
-/* Quizzes */
+/* Quizzes & Assignments */
 .duc #questions.assessing {
     background: var(--osc1) !important;
 }
@@ -135,6 +135,9 @@
     border-top: 1px solid var(--capa2) !important;
 }
 .duc .submission-details-comments .comments {
+    background-color: var(--osc2) !important;
+}
+.duc .rubric_container .rubric_title, .duc .rubric_container thead th {
     background-color: var(--osc2) !important;
 }
 
