@@ -55,7 +55,7 @@ div#dark_opt_canvas {
     padding: 10px !important;
 }
 select#setcanvas {
-    background: var(--capa2) !important;
+    background: var(--osc4) !important;
     color: var(--texto2) !important;
     border-color: var(--capa2) !important;
 }
