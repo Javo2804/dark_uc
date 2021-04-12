@@ -1,41 +1,19 @@
-function ducanvas() {
-    $( "html" ).addClass( "duc" );
-}
-function unducanvas() {
-    $( "html" ).removeClass( "duc" );
-}
-
-chrome.storage.sync.get('setcanvas', function(valor) {
-    darkcanvas = valor.setcanvas;
-    console.log('darkcanvas', darkcanvas)
-    if (darkcanvas == 'false') {
-        $(document).ready(function() {
-            console.log("ALOO")
-            unducanvas();
-        });
-    }
-    // if (darkcanvas == 'true') {
-    //     ducanvas();
-    // }
-});
-
 function guardar() {
-    var canvas = document.getElementById('setcanvas').value;
-    chrome.storage.sync.set({
-      setcanvas: canvas,
+    var estado = document.getElementById('setcanvas').value;
+    chrome.storage.local.set({
+      setcanvas: estado,
     });
-    console.log("Cambios guardados exitosamente. Actualizando página...")
-    location.reload();
+    alert("Los cambios se verán reflejados al actualizar o cambiar la página.")
 };
 
-function actualizar() {
-    chrome.storage.sync.get('setcanvas', function(valor) {
+function obtener_estado() {
+    chrome.storage.local.get('setcanvas', function(valor) {
         document.getElementById('setcanvas').value = valor.setcanvas;
     });
 };
 
 if (document.body.contains(document.querySelector('#global_nav_profile_link'))){
-    $( "#global_nav_profile_link" ).click( function() {
+    $('#global_nav_profile_link').click(function() {
         setTimeout(function() {
             menu_canvas = $('div.tray-with-space-for-global-nav > div.fOyUs_bGBk');
             console.log(menu_canvas);
@@ -50,10 +28,9 @@ if (document.body.contains(document.querySelector('#global_nav_profile_link'))){
                         <option value="false">Desactivado</option>
                     </select>
                 </div>`);
-            console.log('completado...')
-            actualizar();
+            obtener_estado();
             document.getElementById('setcanvas').addEventListener('change', guardar);
-        }, 500);
+        }, 250);
     })
 }
 
