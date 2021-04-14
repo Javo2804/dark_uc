@@ -13,6 +13,37 @@
     --fNHEA-labelColor: var(--texto3) !important;
 }
 
+/* Banner y Menu de Extensión */
+.duc-banner {
+    background: var(--destacado);
+    color: black;
+    display: flex;
+    box-sizing: border-box;
+}
+.duc-subbanner {
+    padding: 15px 24px 15px;
+}
+
+button#cerrar-duc-banner {
+    background: none !important;
+    border: none !important;
+    position: absolute !important;
+    right: 24px !important;
+}
+div#dark_opt_canvas {
+    border: 1px solid var(--osc1) !important;
+    border-radius: 10px !important;
+    color: var(--texto) !important;
+    background: var(--osc2) !important;
+    text-align: center !important;
+    padding: 10px !important;
+}
+select#setcanvas {
+    background: var(--osc4) !important;
+    color: var(--texto2) !important;
+    border-color: var(--capa2) !important;
+}
+
 
 /* GENERAL */
 
@@ -354,6 +385,9 @@
     background-color: var(--osc2) !important;
     border-color: var(--capa2) !important;
 }
+.duc .entry>.bottom-reply-with-box .discussion-entry-reply-area {
+    border-top: 1px solid var(--capa2) !important;
+}
 
 /* Mensajes */
 .duc .message-list .messages>li {
@@ -424,4 +458,7 @@
 }
 .duc .MlJlv_dnnz {
     color: var(--texto3) !important;
+}
+.duc .fQfxa_bCUx.fQfxa_eZal.esvoZ_drOs {
+    color: var(--fQfxa-successGhostColor) !important;
 }
