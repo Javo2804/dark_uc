@@ -1,13 +1,13 @@
 function guardar() {
     var canvas = document.getElementById('setcanvas').value;
-    chrome.storage.sync.set({
+    chrome.storage.local.set({
       setcanvas: canvas,
     });
     console.log("Cambios guardados exitosamente.")
 };
 
 function actualizar() {
-    chrome.storage.sync.get('setcanvas', function(valor) {
+    chrome.storage.local.get('setcanvas', function(valor) {
         document.getElementById('setcanvas').value = valor.setcanvas;
     });
 };
