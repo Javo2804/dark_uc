@@ -13,7 +13,8 @@ function banner_evaluaciones() {
         chrome.storage.local.set({
             setcanvas: 'false',
         });
-        alert("Para aplicar los cambios, debes actualizar la página.")
+        unducanvas();
+        $('#duc-banner').hide()
     })
 }
 
