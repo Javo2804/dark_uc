@@ -28,3 +28,13 @@
     --destacado: #FEBE10 !important;
     --alerta: #D32F2F !important;
 }
+:root.ultraduc {
+    --osc1: #000 !important;
+    --osc2: #121212 !important;
+    --osc3: #1e1e1e !important;
+    --osc4: #292929 !important;
+    --osc5: #343434 !important;
+    --osc6: #3f3f3f !important;
+
+    --trans: rgba(0,0,0,0.95) !important;
+}
