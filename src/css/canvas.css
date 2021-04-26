@@ -51,6 +51,10 @@ select#setcanvas {
     background: var(--osc1) !important;
 }
 
+.duc p {
+    background: transparent !important;
+}
+
 .duc .ic-Layout-watermark {
     background-image: unset !important;
 }
@@ -137,6 +141,9 @@ select#setcanvas {
 .duc .esvoZ_drOs {
     color: var(--texto5) !important;
 }
+.duc .jpyTq_bGBk {
+    color: unset !important;
+}
 
 
 /* Quizzes & Assignments */
@@ -170,6 +177,9 @@ select#setcanvas {
 }
 .duc .rubric_container .rubric_title, .duc .rubric_container thead th {
     background-color: var(--osc2) !important;
+}
+.duc div.comment {
+    color: var(--texto2) !important;
 }
 
 /* Paginas */
