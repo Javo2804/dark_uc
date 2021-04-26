@@ -29,11 +29,18 @@
       "css": ["css/general.css", "css/portal.css", "css/portal_dark.css", "css/login_dark.css"]
     },
     {
-      "matches": ["https://cursos.canvas.uc.cl/*"],
+      "matches": ["https://cursos.canvas.uc.cl/*", "https://applications.zoom.us/lti/rich*"],
       "all_frames": true,
+      "match_about_blank": true,
       "run_at": "document_start",
       "css": ["css/general.css", "css/canvas.css"],
       "js": ["js/jquery-3.6.0.min.js", "js/canvas.js", "js/canvas_start.js"]
+    },
+    {
+      "matches": ["https://applications.zoom.us/lti/rich*"],
+      "all_frames": true,
+      "run_at": "document_start",
+      "css": ["css/canvas_zoom.css"]
     },
     {
       "matches": ["https://cursos.canvas.uc.cl/*"],

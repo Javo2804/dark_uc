@@ -1,0 +1,51 @@
+.duc body {
+    color: var(--texto2) !important;
+}
+.duc .zm-comp-header {
+    background: var(--osc1) !important;
+    box-shadow: unset !important;
+}
+.duc .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab:not(.ant-tabs-tab-active) {
+    background-color: var(--osc2) !important;
+    color: var(--texto) !important;
+    border: 1px solid var(--capa2) !important;
+}
+.duc .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active {
+    background-color: var(--osc3) !important;
+    border: 1px solid var(--capa2) !important;
+}
+.duc .ant-tabs-bar {
+    border-bottom: 1px solid var(--capa2) !important;
+}
+.duc #integration-meeting-list .ant-table {
+    color: var(--texto) !important;
+}
+
+.duc div[style="color: rgb(116, 116, 135);"] {
+    color: var(--texto3) !important;
+}
+
+.duc .ant-table-thead>tr>th {
+    background: var(--osc3) !important;
+}
+.duc .ant-table-column-title {
+    color: var(--texto) !important;
+}
+
+.duc .ant-table-tbody>tr.ant-table-row-hover:not(.ant-table-expanded-row)>td, .duc .ant-table-tbody>tr:hover:not(.ant-table-expanded-row)>td, .duc .ant-table-thead>tr.ant-table-row-hover:not(.ant-table-expanded-row)>td, .duc .ant-table-thead>tr:hover:not(.ant-table-expanded-row)>td {
+    background: var(--capa2) !important;
+}
+.duc .ant-table-tbody>tr>td, .ant-table-thead>tr>th {
+    border-bottom: 1px solid var(--capa2) !important;
+}
+
+.duc .ant-btn {
+    background: var(--capa) !important;
+    border: 1px solid var(--capa2) !important;
+    color: var(--texto3) !important;
+}
+.duc .ant-btn:focus, .duc .ant-btn:hover {
+    background: unset !important;
+    border-color: #0e72ed !important;
+    color: #0e72ed !important;
+}
