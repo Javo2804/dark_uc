@@ -90,7 +90,7 @@ select#setcanvas {
     background: var(--osc1) !important;
 }
 .duc .dxCCp_bGBk {
-    color: var(--texto2);
+    color: var(--texto2) !important;
 }
 
 .duc .ic-Table td {
@@ -127,7 +127,7 @@ select#setcanvas {
     border-bottom: 1px solid var(--capa2) !important;
 }
 .duc .group_user_8330, .duc .group_user_8330:hover, .duc .group_user_8330:focus {
-    background-color: var(--osc2) !important ;
+    background-color: var(--osc2) !important;
 }
 .duc hr {
     border-top: 1px solid var(--capa2) !important;
@@ -143,6 +143,14 @@ select#setcanvas {
 }
 .duc .jpyTq_bGBk {
     color: unset !important;
+}
+.duc .fQfxa_dqAF.fQfxa_buuG {
+    background: var(--osc3) !important;
+    border-color: var(--capa2) !important;
+    color: var(--texto) !important;
+}
+.duc .ig-list .ig-row:hover {
+    background-color: var(--capa2) !important;
 }
 
 
@@ -167,7 +175,7 @@ select#setcanvas {
     color: var(--texto3) !important;
 }
 .duc table.summary td, .duc table.summary tbody th {
-    background-color: var(--osc1);
+    background-color: var(--osc1) !important;
 }
 .duc .ui-datepicker .ui-datepicker-time, .duc .ui-dialog .ui-dialog-buttonpane,.duc .ui-dialog .ui-datepicker .ui-datepicker-time, .duc .ui-datepicker .ui-dialog .ui-datepicker-time {
     border-top: 1px solid var(--capa2) !important;
@@ -243,6 +251,10 @@ select#setcanvas {
     filter: invert(0.93) !important;
 }
 
+.duc .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+    color: var(--texto2) !important;
+}
+
 .duc .ui-tabs .ui-tabs-panel {
     background: var(--capa) !important;
 }
@@ -260,6 +272,9 @@ select#setcanvas {
 .duc .ic-Table.ic-Table--hover-row tbody tr:hover, .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover, .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover, .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover, .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover {
     background: var(--capa2) !important;
 }
+.duc .ic-Table.ic-Table--hover-row tbody tr:hover:nth-child(odd), .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover:nth-child(odd), .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover:nth-child(odd), .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover:nth-child(odd), .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover:nth-child(odd) {
+    background: var(--capa2) !important;
+}
 
 .duc .ic-Table.ic-Table--striped tbody tr:nth-child(odd) {
     background: var(--capa) !important;
@@ -267,7 +282,7 @@ select#setcanvas {
 
 .duc .qBMHb_cSXm {
     background: var(--osc2) !important;
-    border-color: var(--capa);
+    border-color: var(--capa) !important;
 }
 .duc .qBMHb_cSXm input {
     background: unset !important;
@@ -309,7 +324,7 @@ select#setcanvas {
     filter: invert(0.8) !important;
 }
 .duc .student-groups {
-    border-color: var(--capa2);
+    border-color: var(--capa2) !important;
 }
 .duc .student-groups.show-body .student-group-header {
     background-color: var(--osc3) !important;
@@ -317,6 +332,14 @@ select#setcanvas {
 /* Anuncios */
 .duc .ic-item-row {
     box-shadow: 0 -1px var(--capa), inset 0 -1px var(--capa) !important;
+}
+
+/* Programa del Curso Syllabus */
+.duc #syllabus tr.date.date_passed td, #syllabus tr.date.date_passed th {
+    background-color: unset !important;
+}
+.duc #syllabus tr.date.related td, #syllabus tr.date.related th, #syllabus tr.date.selected td, #syllabus tr.date.selected th {
+    background-color: var(--capa) !important;
 }
 
 /* Archivos */
@@ -397,6 +420,9 @@ select#setcanvas {
 }
 .duc .entry>.bottom-reply-with-box .discussion-entry-reply-area {
     border-top: 1px solid var(--capa2) !important;
+}
+.duc .equation_image {
+    filter: invert(0.98) !important;
 }
 
 /* Mensajes */

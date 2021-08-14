@@ -49,3 +49,14 @@
     border-color: #0e72ed !important;
     color: #0e72ed !important;
 }
+
+.duc #integration-recording-list .ant-table {
+    color: var(--texto2) !important;
+}
+
+.duc .ant-table-placeholder {
+    background: var(--capa) !important;
+    color: var(--texto2) !important;
+    border-top: 1px solid var(--capa2);
+    border-bottom: 1px solid var(--capa2);
+}
