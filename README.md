@@ -14,9 +14,9 @@ Extensión para Google Chrome que permite establer modo oscuro en servicios de l
 # Desarrollo
 Extensión aún en desarrollo.
 - Portal UC ✅
-- Canvas <i>(experimental)</i> 🆕
+- Canvas <i>(experimental)</i>.
+- Compatibilidad con navegadores Firefox y Opera.
+- Menú de configuración (Activar/Desactivar).
 
 ## Por hacer
-- Revisar compatibilidad con Firefox.
-- Crear un menú de configuración (Activar/Desactivar).
-- Aplicar modo oscuro a más plataformas de la UC, tales como Canvas, LABMAT, SIDING, Buscacursos, etc.
+- Aplicar modo oscuro a más plataformas de la UC, tales como LABMAT, SIDING, Buscacursos, etc.
