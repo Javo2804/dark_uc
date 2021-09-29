@@ -16,14 +16,12 @@
     }
   },
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "scripts": ["background.js"]
   },
   "options_ui": {
     "page": "popup/config.html",
     "open_in_tab": false
   },
-  "options_page": "options.html",
   "permissions": ["storage"],
   "icons": {
     "16": "imagenes/icono/16.png",
@@ -38,7 +36,6 @@
     {
       "matches": ["https://cursos.canvas.uc.cl/*", "https://applications.zoom.us/lti/rich*"],
       "all_frames": true,
-      "match_about_blank": true,
       "run_at": "document_start",
       "css": ["css/general.css", "css/canvas.css"],
       "js": ["js/jquery-3.6.0.min.js", "js/canvas.js", "js/canvas_start.js"]
@@ -51,7 +48,6 @@
     },
     {
       "matches": ["https://cursos.canvas.uc.cl/*"],
-      "match_about_blank": true,
       "all_frames": true,
       "js": ["js/canvas_sidebar.js"]
     },
