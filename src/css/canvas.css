@@ -15,6 +15,11 @@
     --fdyuz-background: var(--osc2) !important;
 }
 
+.ic-DashboardCard__action-badge {
+    top: unset !important;
+    right: unset !important;
+}
+
 /* Banner y Menu de Extensión */
 .duc-banner {
     background: var(--destacado);
