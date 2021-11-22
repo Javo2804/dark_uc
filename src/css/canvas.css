@@ -11,6 +11,44 @@
     --enRcg-secondaryColor: var(--texto2) !important;
     --ctrLD-color: var(--texto3) !important;
     --fNHEA-labelColor: var(--texto3) !important;
+    --fvvQs-background: rgba(0, 0, 0, 0.75) !important;
+    --fdyuz-background: var(--osc2) !important;
+}
+
+.ic-DashboardCard__action-badge {
+    top: unset !important;
+    right: unset !important;
+}
+
+/* Banner y Menu de Extensión */
+.duc-banner {
+    background: var(--destacado);
+    color: black;
+    display: flex;
+    box-sizing: border-box;
+}
+.duc-subbanner {
+    padding: 15px 24px 15px;
+}
+
+button#cerrar-duc-banner {
+    background: none !important;
+    border: none !important;
+    position: absolute !important;
+    right: 24px !important;
+}
+div#dark_opt_canvas {
+    border: 1px solid var(--osc1) !important;
+    border-radius: 10px !important;
+    color: var(--texto) !important;
+    background: var(--osc2) !important;
+    text-align: center !important;
+    padding: 10px !important;
+}
+select#setcanvas {
+    background: var(--osc4) !important;
+    color: var(--texto2) !important;
+    border-color: var(--capa2) !important;
 }
 
 
@@ -19,65 +57,58 @@
 .duc body {
     background: var(--osc1) !important;
 }
-
+.duc p {
+    background: transparent !important;
+}
 .duc .ic-Layout-watermark {
     background-image: unset !important;
 }
-
 .duc div.ic-sidebar-logo {
     display: none !important;
 }
-
 .duc .ic-Dashboard-header__layout {
     background: var(--trans) !important;
     border-bottom: 1px solid var(--capa2) !important;
 }
-
 .duc .btn, .duc .Button, .duc .ui-button {
     background: var(--capa) !important;
     color: var(--texto2) !important;
     border-color: var(--osc3) !important;
 }
-
 .duc .btn-primary, .duc .Button--primary {
     background: var(--azul_osc) !important;
 }
-
 .duc .eHiXd_dnnz, .duc a.eHiXd_dnnz, .duc button.eHiXd_dnnz, .duc button.eHiXd_dnnz[type="button"], .duc button.eHiXd_dnnz[type="reset"], .duc button.eHiXd_dnnz[type="submit"] {
     color: var(--texto3) !important;
 }
-
 .duc .header-bar {
     background-color: var(--osc1) !important;
 }
-
 .duc .tray-with-space-for-global-nav, .duc .ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link, .duc .fLzZc_bGBk {
     background: var(--osc1) !important;
 }
 .duc .dxCCp_bGBk {
-    color: var(--texto2);
+    color: var(--texto2) !important;
 }
-
 .duc .ic-Table td {
     border-color: var(--osc3) !important;
 }
-
 .duc table {
-    background-color: var(--osc2) !important;
+    background-color: unset !important;
 }
-
+.duc .ic-Table th {
+    border-bottom-color: var(--capa2) !important;
+}
 .duc textarea, .duc input[type="text"], .duc input[type="password"], .duc input[type="datetime"], .duc input[type="datetime-local"], .duc input[type="date"], .duc input[type="month"], .duc input[type="time"], .duc input[type="week"], .duc input[type="number"], .duc input[type="email"], .duc input[type="url"], .duc input[type="search"], .duc input[type="tel"], .duc input[type="color"], .duc .uneditable-input {
     background: var(--capa) !important;
     border-color: var(--capa) !important;
     color: var(--texto2) !important;
 }
-
 .duc select, .duc input, .duc select.ic-Input, .duc textarea.ic-Input, .duc input[type="text"].ic-Input, .duc input[type="password"].ic-Input, .duc input[type="datetime"].ic-Input, .duc input[type="datetime-local"].ic-Input, .duc input[type="date"].ic-Input, .duc input[type="month"].ic-Input, .duc input[type="time"].ic-Input, .duc input[type="week"].ic-Input, .duc input[type="number"].ic-Input, .duc input[type="email"].ic-Input, .duc input[type="url"].ic-Input, .duc input[type="search"].ic-Input, .duc input[type="tel"].ic-Input, .duc input[type="color"].ic-Input, .duc .uneditable-input.ic-Input {
     background: var(--capa) !important;
     border-color: var(--capa) !important;
     color: var(--texto2) !important;
 }
-
 .duc .ui-icon-extlink {
     filter: invert(1) !important;
 }
@@ -91,24 +122,60 @@
     background: var(--osc3) !important;
     border-bottom: 1px solid var(--capa2) !important;
 }
-.duc .group_user_8330, .duc .group_user_8330:hover, .duc .group_user_8330:focus {
-    background-color: var(--osc2) !important ;
-}
 .duc hr {
     border-top: 1px solid var(--capa2) !important;
 }
 .duc #right-side h2, .duc #right-side .h2 {
     border-bottom: 1px solid var(--capa2) !important;
 }
+.duc #right-side .events_list.recent_feedback .h2.shared-space h2 {
+    border-bottom: none !important;
+}
 .duc #right-side .events_list .event-details:after, .duc #right-side .events_list .todo-details:after, .duc #right-side .to-do-list .event-details:after, .duc #right-side .to-do-list .todo-details:after {
     background: unset !important;
 }
-.duc .esvoZ_drOs {
+/* .duc .esvoZ_drOs {
     color: var(--texto5) !important;
+} */
+.duc .jpyTq_bGBk {
+    color: unset !important;
+}
+.duc .fQfxa_dqAF.fQfxa_buuG {
+    background: var(--osc3) !important;
+    border-color: var(--capa2) !important;
+    color: var(--texto) !important;
+}
+.duc .ig-list .ig-row:hover {
+    background-color: var(--capa2) !important;
+}
+.duc .context_module_item.context_module_item_hover {
+    background: unset !important;
+}
+.duc .eHiXd_eYmo, .duc a.eHiXd_eYmo, .duc button.eHiXd_eYmo, .duc button.eHiXd_eYmo[type="button"], .duc button.eHiXd_eYmo[type="reset"], .duc button.eHiXd_eYmo[type="submit"] {
+    background: var(--capa2) !important;
+    border-color: var(--capa) !important;
+    color: var(--texto3) !important;
+}
+.duc .avatar {
+    border-color: var(--osc4) !important;
+    background-color: var(--osc2) !important;
+}
+.duc .module-sequence-footer .module-sequence-footer-content {
+    border-color: var(--capa2) !important;
+}
+.duc #context-list .not-checked .context-list-toggle-box {
+    border-color: var(--capa2) !important;
+    background-color: var(--capa) !important;
+}
+.duc .cvphu_bgqc {
+    background-color: var(--osc2) !important;
+    color: var(--texto3) !important;
+}
+.duc .faJyW_blJt {
+    color: var(--texto4) !important;
 }
 
-
-/* Quizzes */
+/* Quizzes & Assignments */
 .duc #questions.assessing {
     background: var(--osc1) !important;
 }
@@ -129,7 +196,8 @@
     color: var(--texto3) !important;
 }
 .duc table.summary td, .duc table.summary tbody th {
-    background-color: var(--osc1);
+    background-color: var(--osc1) !important;
+    border-color: var(--capa2) !important;
 }
 .duc .ui-datepicker .ui-datepicker-time, .duc .ui-dialog .ui-dialog-buttonpane,.duc .ui-dialog .ui-datepicker .ui-datepicker-time, .duc .ui-datepicker .ui-dialog .ui-datepicker-time {
     border-top: 1px solid var(--capa2) !important;
@@ -137,13 +205,29 @@
 .duc .submission-details-comments .comments {
     background-color: var(--osc2) !important;
 }
+.duc .rubric_container .rubric_title, .duc .rubric_container thead th {
+    background-color: var(--osc2) !important;
+}
+.duc div.comment {
+    color: var(--texto2) !important;
+}
+.duc .muted-notice {
+    background: var(--osc2) !important;
+    background-image: unset !important;
+    border: 1px solid var(--capa2) !important;
+    text-shadow: unset !important;
+}
+.duc #quiz_show ul#quiz_student_details {
+    border-color: var(--capa2) !important;
+}
+.duc .quiz-header {
+    border-color: var(--capa2) !important;
+}
 
 /* Paginas */
-
 .duc #breadcrumbs {
     background: unset !important;
 }
-
 .duc .list-view a.active {
     border-left: 2px solid var(--texto2) !important;
     color: var(--texto2) !important;
@@ -161,69 +245,95 @@
 }
 
 /* Tablero */
-
 .duc .ic-DashboardCard, .duc .ic-DashboardCard__header_content {
     background: var(--osc2) !important;
+}
+.duc .EmptyDays-styles__root{
+    background: unset !important;
+    color: var(--texto2) !important;
+}
+.duc .Day-styles__root {
+    background: unset !important;
+    color: var(--texto2) !important;
+}
+.duc .Grouping-styles__title {
+    background: var(--osc2) !important;
+}
+.duc .PlannerItem-styles__root {
+    background: var(--osc2) !important;
+    border-bottom: var(--prjKy-borderWidth) solid var(--capa) !important;
+}
+.duc .yyQPt_cSXm {
+    background: var(--capa) !important;
+}
+.duc .Grouping-styles__title::after {
+    background: unset !important;
+}
+.duc .PlannerHeader-styles__root {
+    background: unset !important;
+}
+.duc .fOyUs_fZwI, .duc .fOyUs_kXoP, .duc .dCppM_ddES, .duc .dpCPB_caGd, .duc .Opportunity-styles__root {
+    background: var(--osc2) !important;
+}
+.duc .fOyUs_dsNY, .duc .fOyUs_tIxX {
+    border-color: var(--capa) !important;
 }
 
 /* Cursos */
 
 .duc .course-list-table .course-list-table-row:hover {
-    background-color: var(--osc2) !important;
+    background-color: var(--capa) !important;
 }
-
 .duc .item-group-container {
     background: unset !important;
 }
-
 .duc .item-group-condensed .ig-header {
     background: var(--osc3) !important;
     border: 1px solid var(--osc4) !important;
 }
-
 .duc .item-group-condensed .ig-row, .duc .item-group-condensed .item-group-expandable {
     background: var(--osc2) !important;
     border: 1px solid var(--osc4) !important;
 }
-
 .duc .item-group-expandable .emptyMessage {
     background: unset !important;
 }
-
 .duc .ig-header .name, .duc .accessible-toggler {
     color: var(--texto) !important;
     text-shadow: unset !important;
 }
-
 .duc .mimeClass-audio, .duc .mimeClass-code, .duc .mimeClass-doc, .duc .mimeClass-flash, .duc .mimeClass-folder, .duc .mimeClass-folder-locked, .duc .mimeClass-html, .duc .mimeClass-image, .duc .mimeClass-pdf, .duc .mimeClass-ppt, .duc .mimeClass-text, .duc .mimeClass-video, .duc .mimeClass-xls, .duc .mimeClass-zip, .duc .mimeClass-file {
     filter: invert(0.93) !important;
 }
-
-.duc .ui-tabs .ui-tabs-panel {
-    background: var(--capa) !important;
+.duc .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+    color: var(--texto2) !important;
 }
-
+.duc .ui-tabs .ui-tabs-nav {
+    border-bottom-color: var(--capa2) !important;
+}
+.duc .ui-tabs .ui-tabs-panel {
+    background: unset !important;
+}
 .duc .ui-tabs .ui-tabs-nav li.ui-state-hover, .duc .ui-tabs .ui-tabs-nav li:hover {
     background: var(--capa) !important;
     border-color: unset !important;
 }
-
 .duc .ui-tabs .ui-tabs-nav li.ui-tabs-active, .duc .ui-tabs .ui-tabs-nav li.ui-tabs-active.ui-state-hover, .duc .ui-tabs .ui-tabs-nav li.ui-tabs-active:hover {
     background: var(--capa) !important;
     border-color: var(--capa) !important;
 }
-
 .duc .ic-Table.ic-Table--hover-row tbody tr:hover, .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover, .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover, .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover, .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover {
     background: var(--capa2) !important;
 }
-
+.duc .ic-Table.ic-Table--hover-row tbody tr:hover:nth-child(odd), .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover:nth-child(odd), .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover:nth-child(odd), .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover:nth-child(odd), .duc .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover:nth-child(odd) {
+    background: var(--capa2) !important;
+}
 .duc .ic-Table.ic-Table--striped tbody tr:nth-child(odd) {
     background: var(--capa) !important;
 }
-
 .duc .qBMHb_cSXm {
     background: var(--osc2) !important;
-    border-color: var(--capa);
+    border-color: var(--capa) !important;
 }
 .duc .qBMHb_cSXm input {
     background: unset !important;
@@ -265,14 +375,39 @@
     filter: invert(0.8) !important;
 }
 .duc .student-groups {
-    border-color: var(--capa2);
+    border-color: var(--capa2) !important;
 }
 .duc .student-groups.show-body .student-group-header {
     background-color: var(--osc3) !important;
 }
+
+/* Calificaciones */
+.duc #grades_summary th.title {
+    border-bottom-color: var(--capa) !important;
+}
+.duc #grades_summary tr.final_grade {
+    border-top-color: var(--capa2) !important;
+}
+.duc .fCrpb_egrg, .duc .fCrpb_egrg.fCrpb_fVUh, .duc label.fCrpb_egrg {
+    color: var(--texto3) !important;
+}
+
+/* Personas */
+.duc table.roster.ic-Table.ic-Table--hover-row.ic-Table--condensed.ic-Table--striped {
+    background: unset !important;
+}
+
 /* Anuncios */
 .duc .ic-item-row {
     box-shadow: 0 -1px var(--capa), inset 0 -1px var(--capa) !important;
+}
+
+/* Programa del Curso Syllabus */
+.duc #syllabus tr.date.date_passed td, #syllabus tr.date.date_passed th {
+    background-color: unset !important;
+}
+.duc #syllabus tr.date.related td, #syllabus tr.date.related th, #syllabus tr.date.selected td, #syllabus tr.date.selected th {
+    background-color: var(--capa) !important;
 }
 
 /* Archivos */
@@ -308,6 +443,15 @@
 }
 .duc #calendar-app .fc-month-view .fc-today, .duc #calendar-drag-and-drop-container .fc-month-view .fc-today {
     background-color: var(--osc3) !important;
+}
+.duc .fc-content-skeleton table {
+    background-color: var(--osc2) !important;
+}
+.duc #calendar-app .fc-month-view .fc-body, .duc #calendar-drag-and-drop-container .fc-month-view .fc-body {
+    background-color: var(--osc2) !important;
+}
+.duc #calendar-app .fc-event, .duc #calendar-drag-and-drop-container .fc-event {
+    background-color: var(--capa) !important;
 }
 
 /* Foros */
@@ -350,6 +494,12 @@
 .duc .discussion-reply-box {
     background-color: var(--osc2) !important;
     border-color: var(--capa2) !important;
+}
+.duc .entry>.bottom-reply-with-box .discussion-entry-reply-area {
+    border-top: 1px solid var(--capa2) !important;
+}
+.duc .equation_image {
+    filter: invert(0.98) !important;
 }
 
 /* Mensajes */
@@ -421,4 +571,14 @@
 }
 .duc .MlJlv_dnnz {
     color: var(--texto3) !important;
+}
+.duc .fQfxa_bCUx.fQfxa_eZal.esvoZ_drOs {
+    color: var(--fQfxa-successGhostColor) !important;
+}
+.duc .erWSf_bGBk {
+    background-color: var(--osc2) !important;
+    color: var(--texto2) !important;
+}
+.duc .fQfxa_bCUx.fQfxa_buuG {
+    color: var(--texto5) !important;
 }

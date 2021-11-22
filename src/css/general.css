@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
     --osc1: #121212 !important;
     --osc2: #1e1e1e !important;
@@ -28,4 +27,14 @@
     --seleccionado: #FEBE10 !important;
     --destacado: #FEBE10 !important;
     --alerta: #D32F2F !important;
+}
+:root.ultraduc {
+    --osc1: #000 !important;
+    --osc2: #121212 !important;
+    --osc3: #1e1e1e !important;
+    --osc4: #292929 !important;
+    --osc5: #343434 !important;
+    --osc6: #3f3f3f !important;
+
+    --trans: rgba(0,0,0,0.95) !important;
 }

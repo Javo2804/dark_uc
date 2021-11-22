@@ -1,12 +1,12 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "DarkUC - Modo Oscuro UC",
-  "version": "0.4.6",
-  "version_name": "0.4.6",
+  "version": "1.0.0",
+  "version_name": "v1.0.0",
   "author": "Javier Z. Avello",
   "description": "Extensión que permite activar Modo Oscuro en plataformas de la UC.",
   "short_name": "Dark UC",
-  "action": {
+  "browser_action": {
     "default_popup": "popup/popup.html",
     "default_title": "Configuración Modo Oscuro UC",
     "default_icon": {
@@ -16,31 +16,40 @@
     }
   },
   "background": {
-    "service_worker": "background.js"
+    "scripts": ["background.js"]
   },
   "options_ui": {
     "page": "popup/config.html",
     "open_in_tab": false
   },
   "permissions": ["storage"],
+  "icons": {
+    "16": "imagenes/icono/16.png",
+    "32": "imagenes/icono/32.png",
+    "128": "imagenes/icono/icono.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://portal.uc.cl/*", "https://sso.uc.cl/*"],
       "css": ["css/general.css", "css/portal.css", "css/portal_dark.css", "css/login_dark.css"]
     },
     {
-      "matches": ["https://cursos.canvas.uc.cl/*"],
-      "match_about_blank": true,
+      "matches": ["https://cursos.canvas.uc.cl/*", "https://applications.zoom.us/lti/rich*"],
       "all_frames": true,
-      "css": ["css/canvas_gral.css", "css/canvas.css"],
-      "js": ["js/jquery-3.6.0.min.js", "js/canvas.js"]
+      "run_at": "document_start",
+      "css": ["css/general.css", "css/canvas.css"],
+      "js": ["js/jquery-3.6.0.min.js", "js/canvas.js", "js/canvas_start.js"]
+    },
+    {
+      "matches": ["https://applications.zoom.us/lti/rich*"],
+      "all_frames": true,
+      "run_at": "document_start",
+      "css": ["css/canvas_zoom.css"]
     },
     {
       "matches": ["https://cursos.canvas.uc.cl/*"],
-      "match_about_blank": true,
       "all_frames": true,
-      "run_at": "document_start",
-      "js": ["js/canvas_start.js"]
+      "js": ["js/canvas_sidebar.js"]
     },
     {
       "matches": ["https://cursos.canvas.uc.cl/*/assignments*", "https://cursos.canvas.uc.cl/*/quizzes*"],
