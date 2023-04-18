@@ -1,323 +1,323 @@
 /* DARK MODE PORTAL UC */
 
-body, #content-wrapper {
+.duc body, .duc #content-wrapper {
     background: var(--osc1) !important;
 }
 
-#banner, div.tabs-hide, #content-wrapper {
+.duc #banner, .duc div.tabs-hide, .duc #content-wrapper {
     border-left: unset !important;
     border-right: unset !important;
 }
 
-#content-wrapper {
+.duc #content-wrapper {
     border-bottom: unset !important;
     margin-left: 12px !important;
     margin-right: 12px !important;
 }
 
-.portlet {
+.duc .portlet {
     /* box-shadow: unset !important; */
     box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px 0, rgba(0, 0, 0, 0.15) 0 1px 3px 1px !important;
     background: var(--osc2) !important;
 }
 
-.portlet-topper {
+.duc .portlet-topper {
     background: var(--azul_osc) !important;
 }
 
-#wrapper {
+.duc #wrapper {
     color: var(--texto) !important;
 }
 
-#layout-grid .lfr-column {
+.duc #layout-grid .lfr-column {
     padding: unset !important;
 }
 
-.table_data {
+.duc .table_data {
     background-color: unset !important;
     color: unset !important;
     font: unset !important;
     border-collapse: collapse !important;
 }
 
-.table_data th {
+.duc .table_data th {
     background-color: var(--osc3) !important;
     color: unset !important;
     border: solid 1px var(--borde_tabla) !important;
     padding-left: 2px !important;
 }
 
-.table_data tbody td {
+.duc .table_data tbody td {
     background-color: unset !important;
     border: solid 1px var(--borde_tabla) !important;
     color: unset !important;
     padding-left: 2px !important;
 }
 
-#tabs, .tabs-container {
+.duc #tabs, .duc .tabs-container {
     background: var(--azul_osc) !important;
     /* border-top-left-radius: 5px !important;
     border-top-right-radius: 5px !important; */
 }
 
-li.tabs-selected, .tabs-selected span {
+.duc li.tabs-selected, .duc .tabs-selected span {
     background: var(--azul_osc) !important;
     border-top-left-radius: 5px !important;
     border-top-right-radius: 5px !important;
 }
 
-.menu_scroll li a {
+.duc .menu_scroll li a {
     height: 100% !important;
 }
 
-.menu_scroll li a:hover {
+.duc .menu_scroll li a:hover {
     background: var(--azul_osc1) !important;
     color: var(--seleccionado) !important;
 }
 
-.menu_scroll li.selected span {
+.duc .menu_scroll li.selected span {
     background: unset !important;
 }
 
-.tabs-selected span a {
+.duc .tabs-selected span a {
     background: var(--azul_osc) !important;
 }
 
-.tabs-selected span a {
+.duc .tabs-selected span a {
     color: var(--seleccionado) !important;
     background: var(--azul_osc) !important;
 }
 
-.menu_scroll li {
+.duc .menu_scroll li {
     height: 100% !important;
 }
 
-.menu_scroll li.selected a {
+.duc .menu_scroll li.selected a {
     color: var(--seleccionado) !important;
     background: var(--azul_osc2) !important;
 }
 
-a {
+.duc a {
     color: var(--texto_dest) !important;
 }
 
-input[type="text"], input[type="password"], input[type="file"], input[type="submit"], input[type="button"], input[type="reset"], select, textarea, .textarea, input.focus {
+.duc input[type="text"], .duc input[type="password"], .duc input[type="file"], .duc input[type="submit"], .duc input[type="button"], .duc input[type="reset"], .duc select, .duc textarea, .duc .textarea, .duc input.focus {
     border: unset !important;
 }
 
-.form input[type="submit"], input[type="button"] {
+.duc .form input[type="submit"], .duc input[type="button"] {
     background: var(--azul_osc1) !important;
     border-radius: 5px !important;
 }
 
-a.botonEstandar {
+.duc a.botonEstandar {
     background: var(--azul_osc1) !important;
     border-radius: 5px !important;
     color: unset !important;
 }
 
-.form input[type="submit"]:hover, input[type="button"]:hover {
+.duc .form input[type="submit"]:hover, .duc input[type="button"]:hover {
     background: var(--azul_osc2) !important;
     color: var(--seleccionado) !important;
 }
 
-hr {
+.duc hr {
     border-color: var(--dism2) !important;
 }
 
-.portlet-msg-error {
+.duc .portlet-msg-error {
     background-color: var(--alerta) !important;
 }
 
 /* INTRA Y SERVICIOS */
 
-div.sdmenuIntra div span, div.sdmenuServ div span {
+.duc div.sdmenuIntra div span, .duc div.sdmenuServ div span {
     color: var(--texto) !important;
 }
 
-div.sdmenuIntra div a, div.sdmenuServ div a {
+.duc div.sdmenuIntra div a, .duc div.sdmenuServ div a {
     color: var(--texto2) !important;
 }
 
 /* TOP MEDIO INICIO */
 
-div.journal-content-article div {
+.duc div.journal-content-article div {
     border: unset !important;
     color: unset !important;
     background-color: unset !important;
 }
 
-div.journal-content-article font {
+.duc div.journal-content-article font {
     color: var(--texto_dest) !important;
 }
 
 /* BuscaPersonas */
 
-div.BP_Pestannas_tabcontents {
+.duc div.BP_Pestannas_tabcontents {
     border: unset !important;
 }
 
-div.BP_Pestannas_tabcontentSelected {
+.duc div.BP_Pestannas_tabcontentSelected {
     background: unset !important;
     border-color: var(--azul_osc) !important;
 }
 
-#pBuscar {
+.duc #pBuscar {
     border: unset !important;
     margin-bottom: 15px !important;
 }
 
-ul.BP_Pestannas_menuList li a {
+.duc ul.BP_Pestannas_menuList li a {
     background: var(--osc2) !important;
     border-color: var(--azul_osc) !important;
 }
 
-ul.BP_Pestannas_menuList li.selected a {
+.duc ul.BP_Pestannas_menuList li.selected a {
     background: var(--osc3) !important;
     border-bottom: var(--osc3) !important;
 }
 
-.BP_fieldsetForm {
+.duc .BP_fieldsetForm {
     border-color: var(--azul_osc) !important;
 }
 
-div[class*="BuscaPersonas"] input:not([type="image"]) {
+.duc div[class*="BuscaPersonas"] input:not([type="image"]) {
     border-radius: 5px !important;
     background: var(--osc3) !important;
     color: var(--texto) !important;
 }
 
-select[name="aRol"] {
+.duc select[name="aRol"] {
     height: unset !important;
     /*width: 100%;*/
     background: var(--osc3) !important;
     color: var(--texto) !important;
 }
 
-.BP_legend {
+.duc .BP_legend {
     color: var(--texto) !important;
 }
 
-span[title="Enviar Correo"]>img {
+.duc span[title="Enviar Correo"]>img {
     filter: invert(0.9) !important;
 }
 
-.BP_detalle span {
+.duc .BP_detalle span {
     background-color: var(--osc3) !important;
     color: var(--texto2) !important;
 }
 
 /* DATOS PERSONALES */
 
-div[class*="DatosPersonales"] select {
+.duc div[class*="DatosPersonales"] select {
     background: var(--osc4) !important;
     color: var(--texto2) !important;
     cursor: pointer !important;
 }
 
-div[class*="DatosPersonales"] select:hover {
+.duc div[class*="DatosPersonales"] select:hover {
     background: var(--capa2) !important;
 }
 
-.table_data .dp-boton {
+.duc .table_data .dp-boton {
     width: 100px !important;
     background: var(--azul_osc) !important;
     border-radius: 5px !important;
 }
 
-.table_data .dp-boton:hover {
+.duc .table_data .dp-boton:hover {
     background: var(--azul_osc2) !important;
     cursor: pointer !important;
 }
 
-.table_data .dp-boton a {
+.duc .table_data .dp-boton a {
     color: var(--texto) !important;
 }
 
-.table_data .dp-imagen .dp-boton {
+.duc .table_data .dp-imagen .dp-boton {
     border-top-left-radius: 0px !important;
     border-top-right-radius: 0px !important;
 }
 
-.table_data .dp-imagen img {
+.duc .table_data .dp-imagen img {
     border-top-left-radius: 5px !important;
     border-top-right-radius: 5px !important;
 }
 
 /* Info relacion persona UC */
 
-.IP-uportal-td1, .IP-alumno-tr {
+.duc .IP-uportal-td1, .duc .IP-alumno-tr {
     color: unset !important;
     background: unset !important;
 }
 
-.IP-tabla {
+.duc .IP-tabla {
     background-color: unset !important;
     color: unset !important;
     font: unset !important;
     border-collapse: collapse !important;
 }
 
-.IP-tabla th, .IP-tabla td {
+.duc .IP-tabla th, .duc .IP-tabla td {
     padding-left: 2px !important;
 }
 
-div[class*="infopersona"] td[colspan="2"] {
+.duc div[class*="infopersona"] td[colspan="2"] {
     padding-left: 0px !important;
 }
 
-.IP-expandido, .IP-noexpandido {
+.duc .IP-expandido, .duc .IP-noexpandido {
     filter: invert() !important;
 }
 
 /* CARGA ACADEMICA */
 
-.hc-uportal-background-content {
+.duc .hc-uportal-background-content {
     background: unset !important;
 }
 
-.hc-table_data {
+.duc .hc-table_data {
     background-color: unset !important;
     border-collapse: collapse !important;
     color: unset !important;
     font: unset !important;
 }
 
-.hc-table_data tbody td {
+.duc .hc-table_data tbody td {
     background-color: unset !important;
     border: solid 1px var(--borde_tabla) !important;
     color: unset !important;
 }
 
-.hc-table_data tbody th {
+.duc .hc-table_data tbody th {
     color: unset !important;
     background-color: var(--osc3) !important;
     border: solid 1px var(--borde_tabla) !important;
 }
 
-.hc-table_data thead th {
+.duc .hc-table_data thead th {
     color: unset !important;
     background-color: var(--osc3) !important;
     border: solid 1px var(--borde_tabla) !important;
 }
 
-a.hc-descripcion {
+.duc a.hc-descripcion {
     color: black !important;
 }
 
-.hc-descripcion span {
+.duc .hc-descripcion span {
     border: unset !important;
     border-radius: 10px !important;
     /* IMPORTANTE COLOR FIJO PARA POP-UP DE INFO HORARIO */
     background-color: #313131 !important;
 }
 
-select[name="PeriodoSelec"] {
+.duc select[name="PeriodoSelec"] {
     background: var(--osc3) !important;
     color: unset !important;
 }
 
-input.uportal-button[name="searchPeriodo"] {
+.duc input.uportal-button[name="searchPeriodo"] {
     height: 26px !important;
     border: unset !important;
     border-radius: 5px !important;
@@ -325,50 +325,50 @@ input.uportal-button[name="searchPeriodo"] {
     color: unset !important;
 }
 
-.hc-titulo {
+.duc .hc-titulo {
     font-size: 14px !important;
     margin-top: 10px !important;
 }
 
-.hc-td>div>a>span>table td {
+.duc .hc-td>div>a>span>table td {
     color: var(--texto2) !important;
 }
 
-.hc-color-clase-1 {
+.duc .hc-color-clase-1 {
     background-color: #EB9007!important;
 }
 
-.hc-color-clase-2 {
+.duc .hc-color-clase-2 {
     background-color: #4F9D4F!important;
 }
 
-.hc-color-clase-3 {
+.duc .hc-color-clase-3 {
     background-color: #338CE4!important;
 }
 
-.hc-color-clase-4 {
+.duc .hc-color-clase-4 {
     background-color: #FF30FF!important;
 }
 
-.hc-color-clase-5 {
+.duc .hc-color-clase-5 {
     background-color: #7A6DEE!important;
 }
 
-.hc-color-clase-6 {
+.duc .hc-color-clase-6 {
     background-color: #9D9D4F!important;
 }
 
-.hc-color-clase-7 {
+.duc .hc-color-clase-7 {
     background-color: #3DD7D7!important;
 }
 
-.hc-color-clase-otro {
+.duc .hc-color-clase-otro {
     background-color: #FF0E0E!important;
 }
 
 /* Suspension y anulacion */
 
-.well {
+.duc .well {
     background-color: var(--osc3) !important;
     border: unset !important;
     border-radius: 5px !important;
@@ -376,21 +376,21 @@ input.uportal-button[name="searchPeriodo"] {
 
 /* FECHAS DE INSCRIPCIÓN CURSOS */
 
-.ED-legend_sustentador {
+.duc .ED-legend_sustentador {
     color: unset !important;
 }
 
 /* RETENCIONES */
 
-.ED-table2 {
+.duc .ED-table2 {
     border: unset !important;
 }
 
-.ED-uportal-background-content {
+.duc .ED-uportal-background-content {
     background: unset !important;
 }
 
-.ED-uportal-td3 {
+.duc .ED-uportal-td3 {
     color: unset !important;
 }
 
@@ -404,63 +404,63 @@ input.uportal-button[name="searchPeriodo"] {
       padding: 0;
     }*/
 
-#ui-datepicker-div, .ui-datepicker-inline {
+.duc #ui-datepicker-div, .duc .ui-datepicker-inline {
     background: unset !important;
 }
 
-.ui-datepicker .ui-datepicker-days-row {
+.duc .ui-datepicker .ui-datepicker-days-row {
     background: unset !important;
 }
 
-.ui-datepicker-days-cell a {
+.duc .ui-datepicker-days-cell a {
     background: var(--osc3) !important;
     border: 1px solid var(--osc2) !important;
 }
 
-.ui-datepicker-links {
+.duc .ui-datepicker-links {
     background: var(--osc3) !important;
 }
 
-.ui-datepicker-prev a, .ui-datepicker-next a {
+.duc .ui-datepicker-prev a, .duc .ui-datepicker-next a {
     filter: invert() !important;
 }
 
-.upcal-view-links {
+.duc .upcal-view-links {
     background-color: var(--osc3) !important;
 }
 
 /* Situacion deuda */
 
-.morosidad-tabla {
+.duc .morosidad-tabla {
     font-family: unset !important;
     background: unset !important;
 }
 
-.morosidad-th {
+.duc .morosidad-th {
     font-family: unset !important;
     background: var(--capa) !important;
     color: unset !important;
 }
 
-.morosidad-td {
+.duc .morosidad-td {
     font-family: unset !important;
     background: var(--capa) !important;
 }
 
-.morosidad-total {
+.duc .morosidad-total {
     font-family: unset !important;
     background: var(--capa) !important;
 }
 
-.morosidad-expandido {
+.duc .morosidad-expandido {
     filter: invert(1) !important;
 }
 
-.morosidad-noexpandido {
+.duc .morosidad-noexpandido {
     filter: invert(1) !important;
 }
 
-.morosidad-uportal-td1 {
+.duc .morosidad-uportal-td1 {
     font-size: 11px !important;
     background: unset !important;
     color: unset !important;
@@ -468,7 +468,7 @@ input.uportal-button[name="searchPeriodo"] {
     text-align: left !important;
 }
 
-.morosidad-uportal-td2 {
+.duc .morosidad-uportal-td2 {
     font-size: 11px !important;
     background: unset !important;
     color: unset !important;
@@ -476,140 +476,140 @@ input.uportal-button[name="searchPeriodo"] {
     text-align: left !important;
 }
 
-div[class*="Morosidad"] table td {
+.duc div[class*="Morosidad"] table td {
     border: solid 1px var(--borde_tabla) !important;
 }
 
 /* Cuentas por vencer */
 
-.cpp-td, .cpp-td1, .cpp-td2, .cpp-th, .cpp-total {
+.duc .cpp-td, .duc .cpp-td1, .duc .cpp-td2, .duc .cpp-th, .duc .cpp-total {
     background: var(--osc3) !important;
     color: unset !important;
     border: unset !important;
 }
 
-div[class*="CuentasPorPagar"] table td {
+.duc div[class*="CuentasPorPagar"] table td {
     border: solid 1px var(--borde_tabla) !important;
 }
 
-.cpp-tabla {
+.duc .cpp-tabla {
     background: unset !important;
 }
 
-.cpp-th > th {
+.duc .cpp-th > th {
     text-align: center !important;
 }
 
-.cpp-th > th:last-child {
+.duc .cpp-th > th:last-child {
     text-align: right !important;
 }
 
 /* Beneficios */
 
-.dase-Pestannas_tabcontentSelected {
+.duc .dase-Pestannas_tabcontentSelected {
     background: unset !important;
 }
 
-.dase-Pestannas_tabcontentSelected table {
+.duc .dase-Pestannas_tabcontentSelected table {
     background: unset !important;
     border-collapse: collapse !important;
 }
 
-.dase-Pestannas_tabcontentSelected table tbody td {
+.duc .dase-Pestannas_tabcontentSelected table tbody td {
     background-color: unset !important;
     border: solid 1px var(--borde_tabla) !important;
 }
 
-.dase-Pestannas_tabcontentSelected table tbody th {
+.duc .dase-Pestannas_tabcontentSelected table tbody th {
     color: var(--texto) !important;
     background-color: var(--osc3) !important;
     border: solid 1px var(--borde_tabla) !important;
 }
 
-.dase-Pestannas_tabcontentSelected table .dase-th {
+.duc .dase-Pestannas_tabcontentSelected table .dase-th {
     color: var(--texto) !important;
     background-color: var(--osc3) !important;
     border: solid 1px var(--borde_tabla) !important;
 }
 
-.dase-td1, .dase-td2 {
+.duc .dase-td1, .duc .dase-td2 {
     background: unset !important;
 }
 
-span.campo {
+.duc span.campo {
     color: unset !important;
 }
 
-.contenedorListaConvenios {
+.duc .contenedorListaConvenios {
     background: unset !important;
     border: unset !important;
 }
 
-table.convenios {
+.duc table.convenios {
     background-color: unset !important;
     border-collapse: collapse !important;
 }
 
-table.convenios tbody td {
+.duc table.convenios tbody td {
     background-color: unset !important;
     border: solid 1px var(--borde_tabla) !important;
 }
 
-table.convenios tbody th {
+.duc table.convenios tbody th {
     color: var(--texto) !important;
     background-color: var(--osc3) !important;
     border: solid 1px var(--borde_tabla) !important;
 }
 
-table.convenios thead th {
+.duc table.convenios thead th {
     color: var(--texto) !important;
     background-color: var(--osc3) !important;
     border: solid 1px var(--borde_tabla) !important;
 }
 
-table.convenios tbody td {
+.duc table.convenios tbody td {
     color: var(--texto) !important;
 }
 
-.dase-Pestannas_menuList li a {
+.duc .dase-Pestannas_menuList li a {
     background: var(--osc3) !important;
     color: unset !important;
 }
 
-.dase-Pestannas_menuList li.selected a {
+.duc .dase-Pestannas_menuList li.selected a {
     background: var(--osc4) !important;
     border-bottom: 1px solid var(--osc4) !important;
 }
 
-.dase-Pestannas_tabcontents {
+.duc .dase-Pestannas_tabcontents {
     border: unset !important;
 }
 
 /* CONVENIO SOFTWARE */
 
-div.convenio {
+.duc div.convenio {
     background-color: var(--osc3) !important;
 }
 
-div.cond_uso {
+.duc div.cond_uso {
     background-color: var(--osc4) !important;
 }
 
 /* POP UP */
 
-.popup-alert-notice {
+.duc .popup-alert-notice {
     background-color: var(--destacado) !important;
     border-bottom: unset !important;
     /* color: var(--texto2); */
 }
 
-input.popup-alert-close {
+.duc input.popup-alert-close {
     border: 1px solid !important;
     border-color: var(--texto) !important;
 }
 
 /* TEMPORAL */
 
-span[style="color: #000080;"] {
+.duc span[style="color: #000080;"] {
     color: var(--azul_osc2) !important;
 }
