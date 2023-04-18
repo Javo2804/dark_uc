@@ -30,8 +30,12 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://portal.uc.cl/*", "https://sso.uc.cl/*"],
-      "css": ["css/general.css", "css/portal.css", "css/portal_dark.css", "css/login_dark.css"]
+      "matches": ["https://portal.uc.cl/*"],
+      "css": ["css/general.css", "css/portal.css", "css/portal_dark.css"]
+    },
+    {
+      "matches": ["https://sso.uc.cl/*"],
+      "css": ["css/general.css", "css/login.css"]
     },
     {
       "matches": ["https://cursos.canvas.uc.cl/*", "https://applications.zoom.us/lti/rich*"],
@@ -54,6 +58,29 @@
     {
       "matches": ["https://cursos.canvas.uc.cl/*/assignments*", "https://cursos.canvas.uc.cl/*/quizzes*"],
       "js": ["js/jquery-3.6.0.min.js", "js/canvas_aviso.js"]
+    },
+    {
+      "matches": ["https://ssb.uc.cl/ERPUC/*"],
+      "js": ["js/jquery-3.6.0.min.js", "js/banner.js"],
+      "css": ["css/banner_ssb.css"],
+      "exclude_matches": ["https://ssb.uc.cl/ERPUC/twbkwbis.P_WWWLogin"]
+    },
+    {
+      "matches": ["https://ssb.uc.cl/ERPUC/twbkwbis.P_WWWLogin"],
+      "js": ["js/jquery-3.6.0.min.js", "js/banner.js"],
+      "css": ["css/banner_ssb_home.css"]
+    },
+    {
+      "matches": ["https://ssb.uc.cl/ERPUC/bwskfreg.P_AltPin", "https://ssb.uc.cl/ERPUC/bwckcoms.P_Regs"],
+      "js": ["js/banner_choose_planestudios.js"]
+    },
+    {
+      "matches": ["https://ssb.uc.cl/ERPUC/bwskflib.P_SelDefTerm"],
+      "js": ["js/banner_choose_term.js"]
+    },
+    {
+      "matches": ["https://ssb.uc.cl/ERPUC/bvsktess*"],
+      "css": ["css/banner_ecdoc.css"]
     }
   ]
 }
