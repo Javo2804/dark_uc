@@ -1,0 +1,42 @@
+/* SSO Login & Logout */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body, div, a, span, legend {
+    font-family: "Inter", sans-serif !important;
+}
+
+table, td, th, tr {
+    font-family: "Inter", sans-serif !important;
+}
+
+button, form, select, input {
+    font-family: "Inter", sans-serif !important;
+}
+
+/* Forma Tarjetas */
+body.login div.card, body.login #serviceui {
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+.card-header:first-child {
+    line-height: 20px !important;
+}
+
+.card-body.card-body-msj p:first-child {
+    margin-top: 1rem !important;
+}
+
+/* Botones */
+.mdc-button--raised:not(:disabled), .mdc-input-group .mdc-input-group-append {
+    background-color: #fec60d !important;
+}
+
+span.mdc-button__label {
+    font-weight: 600 !important;
+    color: #173f8a !important;
+}
+
+.mdi-eye::before {
+    color: #173f8a !important;
+}
