@@ -1,0 +1,1 @@
+$('#term_id').addClass("uc-input-style");

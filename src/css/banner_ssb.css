@@ -1,0 +1,134 @@
+.skiplinks {
+    display: none;
+}
+
+.fieldlabeltextinvisible {
+    display: none;
+}
+
+DIV.pageheaderdiv2 {
+    /* text-align: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    float: right; */
+    display: none;
+}
+
+input[value="Buscar Clase"] {
+    display: none
+}
+
+input[value="Reinicio"] {
+    display: none
+}
+
+.bgtabon .headerImg {
+    display: none;
+}
+
+.pagefooterlinks {
+    /* Inicio: DYM (01.12.2015), ocultar links existentes al pie de p�gina dentro del autoservicio */
+    visibility: hidden;
+    /* Fin: DYM (01.12.2015) */
+    /* color: black;
+    font-family: Arial, helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 80%;
+    font-style: normal;
+    text-align: center; */
+    /* BROWSER CONSIDERATION - To make Netscape and IE compatible for PageFooter Division. */
+    /* Margin-left style specified for Netscape within parent SPAN tag,                    */
+    /* while IE uses the padding-left style within parent DIV tag.                         */
+    /* margin-left: 3px; */
+}
+
+DIV.headerlinksdiv2 {
+    /* Inicio: DYM (01.12.2015), ocultar opci�n "Buscar" dentro del autoservicio */
+    visibility: hidden;
+    /* Fin: DYM (01.12.2015) */
+    /* color: black;
+    font-family: Arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 90%;
+    font-style: normal;
+    text-align: left;
+    text-transform: none;
+    margin: 10px 0 0 0; */
+}
+
+.uc-navbar_nav {
+    display: none !important;
+}
+span.pageheaderlinks {
+    display: none;
+}
+.datadisplaytable.uc-table tbody tr td {
+    padding: 2.5px 5px;
+}
+.datadisplaytable.uc-table tbody tr th {
+    padding: 2.5px 5px;
+}
+#st_path_id {
+    border: none;
+}
+#st_path_id option {
+    display: inline-block;
+    color: #0176de;
+    padding: 10px;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    margin-right: 5px;
+    box-shadow: 0 0 8px 0 hsla(0, 0%, 53.3%, .18);
+    transition: background-color .2s ease
+}
+#st_path_id option:hover {
+    /* background-color: #EAEAEA; */
+    border-color: #0176de;
+    text-decoration: none
+}
+#st_path_id option:active {
+    background-color: #f6f6f6;
+}
+.dddefault select[name="RSTS_IN"] {
+    padding: 5px;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+}
+input[name="REG_BTN"] {
+    color: #0176de;
+    padding: 12px 16px;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 500;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    box-shadow: 0 0 8px 0 hsl(0deg 0% 53% / 18%);
+    margin-top: 20px;
+}
+form[action="/ERPUC/bwcklibs.P_StoreTerm"] input[type="submit"][value="Enviar"] {
+    color: #0176de;
+    padding: 12px 16px;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 500;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    box-shadow: 0 0 8px 0 hsl(0deg 0% 53% / 18%);
+}
+select[name="term_in"] {
+    padding: 5px;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+}
+input[name="crn_in"] {
+    border: 1px solid #c6c6c6;
+    padding: 12px 16px;
+    line-height: 1;
+    transition: .2s ease;
+    border-radius: 4px;
+}

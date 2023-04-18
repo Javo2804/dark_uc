@@ -1,0 +1,35 @@
+.skiplinks {
+    display: none;
+}
+
+.pageheaderlinks {
+    display: none;
+}
+
+.menulinkdesctext {
+    display: none;
+}
+
+.fieldlabeltextinvisible {
+    display: none;
+}
+
+DIV.pageheaderdiv2 {
+    display: none;
+}
+
+DIV.headerlinksdiv {
+    display: none;
+}
+
+DIV.headerlinksdiv2 {
+    display: none;
+}
+
+DIV.pagetitlediv {
+    display: none;
+}
+
+.uc-navbar_nav {
+    display: none !important;
+}
