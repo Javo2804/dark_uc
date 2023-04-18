@@ -223,6 +223,17 @@ select#setcanvas {
 .duc .quiz-header {
     border-color: var(--capa2) !important;
 }
+.duc .submission-details-container {
+    border: 1px solid var(--capa2) !important;
+}
+.duc .file-upload-submission {
+    border-bottom: 1px solid var(--capa2) !important;
+}
+@media only screen and (min-width: 992px) {
+    .duc .submission-details-comments .comments {
+        border-left: none !important;
+    }
+}
 
 /* Paginas */
 .duc #breadcrumbs {
