@@ -6,7 +6,6 @@ element.classList.add("duc");
 
 chrome.storage.local.get('setcanvas', function(valor) {
     darkcanvas = valor.setcanvas;
-    console.log('darkcanvas', darkcanvas)
     if (darkcanvas == 'false') {
         $(document).ready(function() {
             unducanvas();
